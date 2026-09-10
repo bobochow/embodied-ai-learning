@@ -1,0 +1,878 @@
+{
+  "run_date": "2026-09-11",
+  "cutoff_date": "2026-09-04",
+  "llm_enriched": false,
+  "provenance": {
+    "daily_arxiv": {
+      "repository": "Ed1sonChen/DailyArxiv",
+      "readme_url": "https://raw.githubusercontent.com/Ed1sonChen/DailyArxiv/main/README.md",
+      "readme_sha256": "2543318c692fb3f070d99e5aa3169bad3ae15d0dc023e274a45a08848e9dd4f0",
+      "sections": {
+        "Vision Language Action": 30,
+        "world action model": 30
+      }
+    },
+    "awesome_vla_wam": {
+      "repository": "DravenALG/awesome-vla-wam",
+      "readme_url": "https://raw.githubusercontent.com/DravenALG/awesome-vla-wam/main/README.md",
+      "readme_sha256": "27d7d965a09fec05f1c6de233fe44f8cca6c806ae11e03be3f5033d87527c1a0",
+      "sections": {
+        "VLA Models": 30,
+        "World Action Models": 30,
+        "Policies": 17,
+        "Latent Action Models": 21,
+        "Human Action Pretraining": 6,
+        "Code as Policy": 8
+      }
+    }
+  },
+  "candidate_count": 141,
+  "eligible_count": 28,
+  "selected_count": 15,
+  "selection_trace": {
+    "vla": {
+      "top_10": [
+        "2609.04355",
+        "2609.02653",
+        "2609.10405",
+        "2609.09925",
+        "2609.09250",
+        "2609.07838",
+        "2609.07581",
+        "2609.07470",
+        "2606.17463",
+        "2609.07049"
+      ],
+      "top_3": [
+        "2609.04355",
+        "2609.02653",
+        "2609.10405"
+      ],
+      "top_1": [
+        "2609.04355"
+      ]
+    },
+    "wam": {
+      "top_10": [
+        "2609.10243",
+        "2609.07398",
+        "2609.05588",
+        "2606.01955",
+        "2609.09418",
+        "2608.20974",
+        "2609.06578"
+      ],
+      "top_3": [
+        "2609.10243",
+        "2609.07398",
+        "2609.05588"
+      ],
+      "top_1": [
+        "2609.10243"
+      ]
+    },
+    "data": {
+      "top_10": [],
+      "top_3": [],
+      "top_1": []
+    },
+    "humanoid": {
+      "top_10": [],
+      "top_3": [],
+      "top_1": []
+    },
+    "tactile": {
+      "top_10": [
+        "2603.12665"
+      ],
+      "top_3": [
+        "2603.12665"
+      ],
+      "top_1": [
+        "2603.12665"
+      ]
+    }
+  },
+  "selected": [
+    {
+      "arxiv_id": "2609.10243",
+      "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
+      "abstract": "Embodied AI, including vision-language-action and world-action models, must operate reliably in the physical world. Yet methods that perform well in simulation can degrade substantially on real robots, especially in long-horizon deformable-object manipulation, where policies must track changing states and execute reliable multi-stage bimanual interactions. Existing real-robot benchmarks mainly focus on short-horizon rigid-object tasks and offer limited coverage of long-horizon deformable manipulation. We introduce FolDeX, a physical-world benchmark built entirely from real-robot data, with garment folding as its primary task. Since real-robot data collection is costly, FolDeX studies how heterogeneous physical experience can be reused efficiently. The benchmark is organized around four research axes: leveraging human intervention and recovery data collected during deployment; transferring data across tasks, including across garment categories and from rigid to deformable-object manipulation; reusing data across scenes with changes in lighting, background, and layout; and transferring data across robotic embodiments. FolDeX provides 2,000+ hours of real-robot data spanning 20+ tasks and 10+ embodiments. We also establish a fair real-robot evaluation platform for externally submitted policies, with standardized tasks, held-out physical objects, controlled initializations, and a unified execution protocol. The platform is publicly accessible at https://ai.midea.com/#/fold-challenge. We hope FolDeX will serve as a unified testbed for heterogeneous real-robot data reuse and reliable long-horizon deformable manipulation.",
+      "authors": [
+        "Chenhuan Liu",
+        "Yi Xu",
+        "Feng Wu",
+        "Hanyang Wang",
+        "Wenxiao Kuai",
+        "Weihao Ding",
+        "Shan Wang",
+        "Yang Liu",
+        "Shuyong Gao",
+        "Wenqiang Zhang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-09-09T14:33:44Z",
+      "updated": "2026-09-09T14:33:44Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action",
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "WAM",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2609.04355",
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "abstract": "Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding precision and repeatability. Applying real-world online reinforcement learning (RL) to VLA post-training enables autonomous trial-and-error improvement beyond demonstrations alone, but exposes two bottlenecks: 1) unreliable value signals can induce policy drift; 2) large-VLA overhead constrains throughput and sample efficiency. To address these challenges, we present VLA-Precision, an efficient real-world online RL framework featuring the Asymmetric Co-Bootstrapping (ACoB) algorithm and the ACoB-Stream architecture. Specifically, ACoB establishes asymmetric co-bootstrapping across timescales: early intervention-guided behavioral learning rapidly improves policy performance while enhancing online experience quality. As autonomous experience accumulates, global return propagation and local preference ranking progressively calibrate value estimates, yielding relative action advantages for reference-regularized policy improvement while suppressing drift. To enable ACoB on large VLAs, we develop ACoB-Stream, a closed-loop experience--policy architecture that establishes invariant-state decoupling and on-demand streaming as design principles, delivering up to 10.9$\\times$ improvements in throughput and computational efficiency. Extensive evaluations on nine high-precision chemistry tasks across four categories and four robot embodiments show that VLA-Precision achieves 98.3\\% mean success rate in 45.8 min/task, with 27.6 s episodes running at 1.2$\\times$ and 1.8$\\times$ the speeds of VLA and RL baselines. Resources are available at https://vla-precision.github.io.",
+      "authors": [
+        "Chenyu Su",
+        "Zhaolong Shen",
+        "Yuan Qian",
+        "Chen Qian",
+        "Rui Zhang",
+        "Feng Yan",
+        "Weixing Chen",
+        "Fei Zhang",
+        "Jiamin Wang",
+        "Shuang Cong",
+        "Weiwei Shang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "published": "2026-09-03T18:19:36Z",
+      "updated": "2026-09-09T09:42:55Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "RL",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2609.07398",
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+      "abstract": "World-Action Models inherit world knowledge from video-generative priors, and channel it into executable control signals through embodied experience. Existing systems, however, are monolithic: the generative backbone, visual representation, architecture, information flow, inference procedure, and training data are tightly coupled, obscuring which design choices matter and why. We introduce OpenWAM, an open research stack that turns world-action pretraining into a controlled experimental program. OpenWAM-Infra factorizes the WAM design space into composable modules with unified training, inference, deployment, and evaluation. On this substrate, OpenWAM-Study examines three questions through controlled experiments: what to inherit, how world and action learning interact, and how their synergy scales; and distills three principles: upstream knowledge transfers through a sufficiently capable generative backbone and a compact, information-rich latent space; world-action synergy requires dedicated action capacity, explicit world-to-action information flow, and synchronized joint denoising; and embodied pretraining principally improves out-of-domain generalization, with one-stage co-training over egocentric and robot data integrating world coverage and action grounding. Composing these principles, we build OpenWAM-α, an open WAM pretrained on roughly 6,400 hours of egocentric human and robot data and evaluated across simulation and real-world benchmarks. Across the eight simulation benchmarks and the real-robot experiments, which together span embodiments from single-arm and bimanual manipulation to dexterous hands, OpenWAM-α delivers consistently excellent performance, sustaining its top-tier standing from simulation to the physical world. We release the full stack, including infrastructure, evaluation protocols, pretrained models, and data recipes, to facilitate future research.",
+      "authors": [
+        "Yuran Wang",
+        "Siqiao Huang",
+        "Mingleyang Li",
+        "Chenhao Zhang",
+        "Jiaqi Liang",
+        "Weiyang Jin",
+        "Yue Chen",
+        "Xuemin Chi",
+        "Donghao Zhou",
+        "Qize Yu",
+        "Yu-Kai Wang",
+        "Yuhan Rui",
+        "Shenzhe Yao",
+        "Zhen Yuan",
+        "Zhenhao Shen",
+        "Kefei Zhu",
+        "Zijie Zhu",
+        "Ning Gao",
+        "Xiaowei Chi",
+        "Guanqi He",
+        "Shanghang Zhang",
+        "Hao Dong",
+        "Lin Shao",
+        "Hang Zhao"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-09-07T12:12:32Z",
+      "updated": "2026-09-07T12:12:32Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM",
+        "HUMAN-TO-ROBOT",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2609.02653",
+      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation",
+      "abstract": "Humans can perform complex manipulations given a simple intent through an overall instruction, while continuously adapting to evolving visual observations. However, current vision-language action (VLA) models and other action policies struggle to realize this high-level intelligent behavior under dense, evolving visual inputs and sparse language guidance. Visual correlations can then dominate semantic intent, leading actions to follow visual shortcuts rather than human goals. We present HINT (Human-INTent INcepTion), an agentic framework inspired by the human manipulation principles: semantic intent changes sparsely at manipulation-pattern transitions, whereas continuous control primarily depends on the evolving object-hand relationship. HINT invokes semantic reasoning only at pattern transitions to resolve the current subtask and target, then maintains this commitment through multi-view grounding and visual tracking. We explore two visual interfaces-image-space semantic highlighting and attention-prior injection-to communicate the tracked intent to the action policy without introducing additional trainable parameters into the foundation action model. Experiments across three long-horizon tasks and out-of-distribution variants show that HINT substantially improves intent understanding, task progress, and end-to-end success across two foundation policies while preserving low-latency control. Project page: https://robot-hint.github.io/",
+      "authors": [
+        "Mingyu Mei",
+        "Haojie Xu",
+        "Shihao Jin",
+        "Zibo Dai",
+        "Qihao Cheng",
+        "Zhengrui Lv",
+        "Hongjie Fang",
+        "Shirun Tang",
+        "Guang Chen",
+        "Xinyue Zhao",
+        "Huiliang Shen",
+        "Zaixing He"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-09-02T14:26:30Z",
+      "updated": "2026-09-06T07:18:54Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "ROBOT POLICY"
+      ]
+    },
+    {
+      "arxiv_id": "2609.10405",
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+      "abstract": "Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions. Yet Flow Matching--based vision-language-action (VLA) models typically generate actions in temporal coordinates, without explicitly modeling or systematically leveraging this frequency heterogeneity. We introduce \\emph{FreqFM}, a frequency-conditioned Flow Matching framework for VLA models. It raises action frequency from an implicit trajectory property to an explicit conditioning dimension that spans the entire generation pipeline. Concretely, in DCT frequency coordinates, FreqFM constructs a spectrum-matched source distribution, adaptively balances the objective across frequencies, and constrains per-frequency guidance residuals using the corresponding reference transport scales. FreqFM integrates into existing Flow Matching action experts without changing the VLA backbone. Across LIBERO, LIBERO-Plus, and VLA-Arena, FreqFM consistently improves performance, including a 9.3-point gain on LIBERO-Plus, and further demonstrates its effectiveness on six real-robot tasks.",
+      "authors": [
+        "Haochen Niu",
+        "Shengye Dong",
+        "Hao Liu",
+        "Peiwen Lin",
+        "Wang Chuang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-09-09T16:24:40Z",
+      "updated": "2026-09-09T16:24:40Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2603.12665",
+      "title": "TacVLA: Contact-Aware Tactile Fusion for Robust Vision-Language-Action Manipulation",
+      "abstract": "Vision-Language-Action (VLA) models have demonstrated significant advantages in robotic manipulation. However, their reliance on vision and language often leads to suboptimal performance in tasks involving visual occlusion, fine-grained manipulation, and physical contact. To address these challenges, we propose TacVLA, a fine-tuned VLA model by incorporating tactile modalities into the transformer-based policy to enhance fine-grained manipulation capabilities. Specifically, we introduce a contact-aware gating mechanism that selectively activates tactile tokens only when contact is detected, enabling adaptive multimodal fusion while avoiding irrelevant tactile interference. The fused visual, language, and tactile tokens are jointly processed within the transformer architecture to strengthen cross-modal grounding during contact-rich interaction. Extensive experiments on constraint-locked disassembly, in-box picking and robustness evaluations demonstrate that TacVLA outperforms baselines, %including existing VLA models and diffusion policies, improving the performance by averaging 20\\% success rate in disassembly and 60\\% in in-box picking, achieving a 2.1$\\times$ improvement under visual occlusion, and showing recovery behavior under human disturbance. Videos are available at https://sites.google.com/view/tacvla.",
+      "authors": [
+        "Kaidi Zhang",
+        "Heng Zhang",
+        "Zhengtong Xu",
+        "Zhiyuan Zhang",
+        "Md Rakibul Islam Prince",
+        "Xiang Li",
+        "Xiaojing Han",
+        "Yuhao Zhou",
+        "Arash Ajoudani",
+        "Yu She"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-03-13T05:20:41Z",
+      "updated": "2026-09-06T10:01:35Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "tactile",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "TACTILE"
+      ]
+    },
+    {
+      "arxiv_id": "2609.05588",
+      "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation",
+      "abstract": "World-action models (WAM) predict future states to guide robot actions, enabling learning from both action-free video and action-labeled interaction. Most inherit pretrained video generators, leaving WAM pretraining and scaling underexplored. We introduce Genie Envisioner Act 2.0 (GE-Act 2.0), a world-action model whose trainable generative and action components are all initialized from scratch on manipulation data. It combines a control-oriented autoencoder (CoAE), a single-step visual planner (SVP), and an inverse dynamics model (IDM). CoAE retains action- and instruction-relevant information under aggressive compression, while SVP produces a complete future state in one differentiable pass, so visual planning and inverse dynamics can be pretrained separately on complementary data. The components are then jointly trained with knowledge-aligned selective optimization (KASO), which reduces mismatched supervision by selecting only predicted futures judged behaviorally compatible with the recorded action. We evaluate pretrained checkpoints directly, without per-task fine-tuning, on 100 tasks across 20 manipulation skill groups with held-out scenes, backgrounds, lighting, and object instances. Scaling co-training data from 300 to 30,000 hours raises success from 17.1% to 44.1% on G1-OP and from 13.4% to 31.1% on G2-90D; despite comprising less than 2% of the co-training data, G2-90D improves by 17.7 points, suggesting cross-embodiment transfer. Gains span 19/20 and 18/20 skill groups, and skill-specific coverage strongly correlates with zero-shot out-of-distribution (OOD) success (Pearson r=0.80; Spearman rho=0.85). Under the same protocol, the model grounds object, color, shape, and position references in at least 90% of trials and follows explicit instructions even when they conflict with an already-committed behavior or a conventional scene association.",
+      "authors": [
+        "AgiBot Research Team",
+        "Renhang Liu",
+        "Wenzhi Zhao",
+        "Zhuo Yang",
+        "Liliang Chen",
+        "Pengfei Zhou",
+        "Shengcong Chen",
+        "Guanghui Ren",
+        "Youlun Peng",
+        "Rongjun Jin",
+        "Nan Wang",
+        "Sukai Wang",
+        "Xindong He",
+        "Jinyuan Feng",
+        "Ziyu Xiong",
+        "Linqing Zhong",
+        "Yifei Wei",
+        "Feng Han",
+        "Long Zhang",
+        "Da Huang",
+        "Nanshu Zhao",
+        "Chenghao Yin",
+        "Mo Wu",
+        "Zhaodong Yan",
+        "Kongtao Hu",
+        "Yuxiang Yan",
+        "Aogelijiang Niyazi",
+        "Yu Fang",
+        "Jia Zeng",
+        "Lizhu Meng",
+        "Daizhen Lv",
+        "Haoyu Cao",
+        "Zhiwen Hou",
+        "Lianjin Ye",
+        "Yuehan Niu",
+        "Zhikai Cai",
+        "Xuan Hu",
+        "Hui Min",
+        "Xiongfeng Cai",
+        "Yue Liao",
+        "Jing Wu",
+        "Soujanya Poria",
+        "Ye Li",
+        "Sanping Zhou",
+        "Maoqing Yao"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-09-04T17:16:48Z",
+      "updated": "2026-09-04T17:16:48Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM"
+      ]
+    },
+    {
+      "arxiv_id": "2609.09925",
+      "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models",
+      "abstract": "Modern vision-language-action (VLA) policies predict a whole chunk of actions: one to two seconds of coordinated motion emitted in a single forward pass. Yet an action chunk is essentially a short multivariate trajectory, but inside these models it is a sequence of generic per-timestep hidden tokens decoded by a linear head. This under-serves two motion structures. First, frequency: a chunk superimposes a smooth global trend and fine corrective motion across time scales, and a single token entangles them. Second, cross-phase geometry: motions of different phases (reach, contact, grasp adjustment, settling) unfold along very different, near-orthogonal directions in representation space, yet are tightly related for the task and arise across the time axis. Dot-product attention scores alignment by an inner product, so it favors aligned tokens and is least sensitive near orthogonality, leaving such relationships for the network to recover through a detour. We introduce Time-Frequency Geometric Cross-Attention (TFGCA), a drop-in module repairing both blind spots. TFGCA uses a per-dimension learnable stationary wavelet transform to decompose the action chunk into time-frequency tokens, and each time token retrieves information from them via a cross-attention that fuses the dot product (similarity) with the wedge-product magnitude (sensitive to near-orthogonality) through a learnable weight. A zero-initialized residual reproduces the base behavior at initialization, so it can be dropped onto a pretrained VLA and fine-tuned jointly. Relative to the same-source base, TFGCA improves in-distribution LIBERO by +1.5 on average, the OOD LIBERO-Plus by +6.3, the randomized average under RoboTwin domain randomization by +28.5, and the overall success rate on three real-robot AgiBot A2 tasks by +11.67 points, with larger gains out of distribution.",
+      "authors": [
+        "Shengye Dong",
+        "Haochen Niu",
+        "Hao Liu",
+        "Peiwen Lin",
+        "Chuang Wang",
+        "Shanmin Pang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "published": "2026-09-09T09:16:49Z",
+      "updated": "2026-09-09T09:16:49Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2609.09250",
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "abstract": "A verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them. Verifiers range from success detectors and reward models to runtime monitors, safety filters, and temporal-logic specifications. We survey roughly 150 verifiers and compare them along two properties. Availability is how much a verdict costs, how early in a rollout the verdict arrives, and how often a verdict can be asked for. Availability rises as verdicts get cheaper, earlier, and denser. Credibility is how much a high score tells us about the task. Credibility falls as the judgment becomes gameable and self-serving. We group the verifiers by who supplies the judgment: human verifiers, rule-based and formal verifiers, learned and pretrained verifiers, and model-intrinsic verifiers. Across the four families, we find that credibility falls as availability rises. Regardless of who supplies the judgment, there is no free checker. We then examine what validates a verifier itself, and how much a high score tells us. Three measures appear in the literature: agreement with human labels, the performance of the policy it trains, and behavior under reward hacking. We close with nine metrics that make a verifier claim checkable, and coordinates for the verifiers still to be built.",
+      "authors": [
+        "Yang Wan",
+        "Xihang Yue",
+        "Zhirui Liu",
+        "Ziyuan Chu",
+        "Shuxun Wang",
+        "Yuhan Chen",
+        "Xiaonan Jiang",
+        "Xukun Zhu",
+        "Yubo Dong",
+        "Linchao Zhu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "published": "2026-09-08T13:52:59Z",
+      "updated": "2026-09-08T13:52:59Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2609.07838",
+      "title": "ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics",
+      "abstract": "Connected robotics is an emerging 6G application where mobile robots follow natural-language instructions to manipulate physical objects. The Vision-Language-Action (VLA) models that enable this are too large to run on the robot; a common trend is to offload inference to the cloud. The wireless link, however, limits how much sensing data the edge can transmit per control step. Two recent lines address this constraint: semantic communication codecs compress sensor data but require channel-specific retraining, and VLA token pruners select tokens from image but ignore the channel. Our insight is that the dense semantic information contained in the language already indicates which visual tokens matter. We propose ComVLA, a framework that uses this language guidance to adapt the VLA token budget to the channel capacity. Transmitting 32 tokens instead of 512 on the LIBERO benchmark, ComVLA cuts inference compute by 74% and inference latency by 22% versus the original OpenVLA-OFT baseline, at a cost of 1.5 pp in average task success (95.4% vs. 96.9%), and it stays within the capacity budget under Rayleigh and Rician fading. These results demonstrate that co-designing VLA inference and wireless communication is a practical direction for 6G-connected robotics.",
+      "authors": [
+        "Boliang Liu",
+        "Wint Yi Poe",
+        "Jingyun Di",
+        "Riccardo Trivisonno",
+        "Giuseppe Caire"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-09-07T18:00:14Z",
+      "updated": "2026-09-07T18:00:14Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2609.07581",
+      "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
+      "abstract": "Vision-Language-Action (VLA) policies are commonly adapted to new manipulation settings through additional gradient updates, which limits rapid deployment when task-specific data or compute is scarce. We present ICI-VLA, a training and retrieval framework that equips a text-action VLM with few-shot test-time adaptation through in-context demonstrations. Unlike mainstream VLA designs based on action-specific multimodal fusion, ICI-VLA retains the native text-generation interface. ICI-VLA updates its parameters only during offline training; at inference, the policy remains fixed and conditions action generation on retrieved micro-demonstrations. The framework decomposes long trajectories into short, semantically labeled examples and trains an RD-Encoder with positives mined by Dynamic Time Warping (DTW), aligning the retrieved context with the phase and geometry of the current subtask. We further introduce Target Action Masking, a context-corruption objective designed to reduce direct action copying and increase reliance on the current observation. ICI-VLA reaches average success rates of 97.7% on LIBERO and 60.4% on RoboTwin 2.0, exceeding the highest reported baseline average on RoboTwin 2.0 by 19.3 percentage points. It also achieves 83.2% across four physical tasks. These results indicate that a fixed VLA policy can benefit from conditioning on spatiotemporally aligned demonstrations at test time.",
+      "authors": [
+        "Songhua Yang",
+        "Ziyu Liu",
+        "Xuetao Li",
+        "Ruqi Xiao",
+        "Kangxin Zhu",
+        "Miao Li"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-09-07T14:55:35Z",
+      "updated": "2026-09-07T14:55:35Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2609.07470",
+      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
+      "abstract": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exist for most languages. We study the addition of Greek to an open vision-language-action stack using only machine-rephrased instructions and no architecture changes. The main challenge is measurement rather than translation. Several plausible instruments produce false conclusions: a color-histogram metric rewards noise, a single-goal benchmark scores 84.6% under correct Greek and 82.6% under deliberately wrong instructions, training loss fails to predict Greek success, and single-run comparisons are dominated by seed variation. On a discriminative ninety-task suite with three seeds per arm, a multilingual text tower without Greek demonstrations remains at its wrong-instruction floor, while Greek-only training exceeds its control by at most 2.7 points. Bilingual training yields a consistent 6.7-7.1 point margin over its control and reaches about two fifths of English performance. The policy also overfits the translator's phrasing; training on seven phrasings per task approximately halves this penalty. Warm-starting from a language-adapted world model and unfreezing the text tower both degrade performance. The results support two practical requirements for low-resource robot-policy localization: build a guaranteed null before trusting a metric, and replicate low-resource-language results across seeds.",
+      "authors": [
+        "Ayoub Kirouane",
+        "Georgios Giaples",
+        "Christos Petrocheilos"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-09-07T13:24:23Z",
+      "updated": "2026-09-07T13:24:23Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2606.17463",
+      "title": "WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation",
+      "abstract": "Vision-Language-Action (VLA) policies have achieved remarkable single-step manipulation, yet they remain brittle precisely where each stage depends on what was just completed. The core issue is structural: short-window VLAs lack an explicit channel for rouxting information across sub-task boundaries, and existing memory-augmented variants either write at every frame, retrieve from demonstration-time stages, or fire at sub-goal events without performing an explicit sub-task-to-sub-task hand-off into the action expert. We identify the sub-goal completion event as the natural temporal unit for cross-subtask memory hand-off, and present WeaveLA (Weave Latent memory for Vision-Language-Action policies), a cross-subtask memory interface that, on top of a frozen VLA backbone, compresses each completed segment into latent tokens via query-driven attention pooling and routes them directly into the action-generation path of the next sub-task. This event-triggered, action-side design preserves the base policy's short-window interface while adding a lightweight cross-subtask channel. Through stratified evaluation on RoboMME with a $π_{0.5}$ backbone, WeaveLA's gains land exactly where the channel is needed: on the hardest repetition slice (SwingXtimes, $N{=}3$), success rises from $0\\%$ to $47.8\\%$, while single-execution episodes remain unchanged. Per-episode paired analysis confirms the gains are confined to tasks whose causal structure requires cross-subtask information.",
+      "authors": [
+        "Shoujing Zhu",
+        "Zhenyang Liu",
+        "Fungmiu Wang",
+        "Jiafeng Wang",
+        "Bo Yue",
+        "Guiliang Liu",
+        "Simo Wu",
+        "Xiangyang Xue",
+        "Taiping Zeng"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-06-16T03:25:34Z",
+      "updated": "2026-09-07T06:24:41Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2609.07049",
+      "title": "Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring",
+      "abstract": "Behavior policies are often formulated as continuous generative models, whose iterative denoising processes are expressive but difficult to interpret and prone to producing implausible actions. We propose the Large Discrete Policy (LDiP), a fully discrete behavior modeling framework that selects actions from a large vocabulary of physically plausible candidates. Rather than perturbing actions, LDiP improves expressivity through stochastic iterative scoring: it progressively re-scores and prunes candidates with score-space stochasticity, enabling fine-grained ranking and exploration among plausible actions while preserving an explicit decision process. Across end-to-end planning, closed-loop driving, robotic manipulation, and vision-language-action settings, LDiP consistently outperforms strong discrete and continuous baselines in autonomous driving, and exceeds or matches continuous generative policies in robotic manipulation. These results show that discrete policies, when equipped with effective scoring mechanisms, offer an expressive, plausible, and interpretable alternative for behavior modeling. Project website: https://zhenxinli.net/LargeDiscretePolicy/.",
+      "authors": [
+        "Zhenxin Li",
+        "Nadine Chang",
+        "Xinglong Sun",
+        "Jingde Chen",
+        "Wenhao Yao",
+        "Zi Wang",
+        "Maying Shen",
+        "Yu-Gang Jiang",
+        "Zuxuan Wu",
+        "Shiyi Lan",
+        "Jose M. Alvarez"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-09-07T05:12:52Z",
+      "updated": "2026-09-07T05:12:52Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2609.07006",
+      "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation",
+      "abstract": "Compared with relying solely on initial observations and language instructions, predicting goal images with generative models as high-level visual guidance can significantly enhance the robustness of Vision-Language-Action (VLA) models. However, most existing foundation models have not systematically incorporated goal image conditioning due to the high computational training cost. To this end, we propose Goal-Injected Fine-Tuning (GIFT), a lightweight and efficient fine-tuning framework that seamlessly integrates generated goal images into multiple representative pretrained VLA models. Our approach introduces goal image features into observations via a zero-initialized convolution which progressively grows parameters from zero and prevents harmful noise from disrupting the pretrained policy during fine-tuning. As training proceeds, goal information is gradually incorporated, enabling efficient goal understanding without disrupting model stability. We further introduce a refined image editing method to generate semantically and visually consistent goal images from initial observations and task instructions. Experiments show that goal-aware VLA models achieve substantial performance gains across tasks: with only a single epoch of fine-tuning, GIFT outperforms the base model by 6.0% and 13.4% on two SIMPLER settings, and by 4.7% on LIBERO, demonstrating both efficiency and effectiveness.",
+      "authors": [
+        "Xiaoyuan Fang",
+        "Shuo Feng",
+        "Yuxuan Wang",
+        "Enhua Cheng",
+        "Peng Zhou",
+        "Piji Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-09-07T03:56:49Z",
+      "updated": "2026-09-07T03:56:49Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    }
+  ],
+  "rejected": {
+    "1805.07914": "outside lookback window",
+    "1806.09655": "outside lookback window",
+    "2201.07207": "outside lookback window",
+    "2209.05451": "outside lookback window",
+    "2209.07753": "outside lookback window",
+    "2212.06817": "outside lookback window",
+    "2303.04137": "outside lookback window",
+    "2306.10007": "outside lookback window",
+    "2307.05973": "outside lookback window",
+    "2310.08576": "outside lookback window",
+    "2312.10812": "outside lookback window",
+    "2402.15391": "outside lookback window",
+    "2403.03954": "outside lookback window",
+    "2403.08321": "outside lookback window",
+    "2405.12213": "outside lookback window",
+    "2407.05996": "outside lookback window",
+    "2409.01652": "outside lookback window",
+    "2409.20537": "outside lookback window",
+    "2410.07864": "outside lookback window",
+    "2410.11758": "outside lookback window",
+    "2410.18647": "outside lookback window",
+    "2412.04445": "outside lookback window",
+    "2502.00379": "outside lookback window",
+    "2503.02881": "outside lookback window",
+    "2503.14734": "outside lookback window",
+    "2503.18938": "outside lookback window",
+    "2505.17006": "outside lookback window",
+    "2506.23944": "outside lookback window",
+    "2507.05331": "outside lookback window",
+    "2507.12440": "outside lookback window",
+    "2507.13340": "outside lookback window",
+    "2509.18644": "outside lookback window",
+    "2510.02268": "outside lookback window",
+    "2510.26433": "outside lookback window",
+    "2512.04952": "outside lookback window",
+    "2512.13030": "outside lookback window",
+    "2512.14666": "outside lookback window",
+    "2512.22414": "outside lookback window",
+    "2512.24125": "outside lookback window",
+    "2512.24766": "outside lookback window",
+    "2601.05230": "outside lookback window",
+    "2601.11404": "outside lookback window",
+    "2601.18692": "outside lookback window",
+    "2601.22153": "outside lookback window",
+    "2602.06949": "outside lookback window",
+    "2602.10556": "outside lookback window",
+    "2602.11236": "outside lookback window",
+    "2602.12062": "outside lookback window",
+    "2602.12063": "outside lookback window",
+    "2602.12215": "outside lookback window",
+    "2602.12281": "outside lookback window",
+    "2602.13710": "outside lookback window",
+    "2602.15922": "outside lookback window",
+    "2602.16710": "outside lookback window",
+    "2602.18224": "outside lookback window",
+    "2603.05815": "outside lookback window",
+    "2603.16666": "outside lookback window",
+    "2603.17240": "outside lookback window",
+    "2603.19312": "outside lookback window",
+    "2603.22078": "outside lookback window",
+    "2603.22435": "outside lookback window",
+    "2603.22760": "outside lookback window",
+    "2603.29844": "outside lookback window",
+    "2604.01985": "outside lookback window",
+    "2604.05014": "outside lookback window",
+    "2604.06168": "outside lookback window",
+    "2604.11757": "outside lookback window",
+    "2604.15483": "outside lookback window",
+    "2604.16391": "outside lookback window",
+    "2604.20834": "outside lookback window",
+    "2604.28192": "outside lookback window",
+    "2605.02881": "outside lookback window",
+    "2605.03269": "outside lookback window",
+    "2605.04678": "outside lookback window",
+    "2605.11817": "outside lookback window",
+    "2605.15725": "outside lookback window",
+    "2605.19282": "outside lookback window",
+    "2605.20752": "outside lookback window",
+    "2605.24934": "outside lookback window",
+    "2605.27947": "outside lookback window",
+    "2605.30280": "outside lookback window",
+    "2606.01027": "outside lookback window",
+    "2606.02800": "outside lookback window",
+    "2606.05254": "outside lookback window",
+    "2606.06904": "outside lookback window",
+    "2606.07100": "outside lookback window",
+    "2606.11187": "outside lookback window",
+    "2606.15768": "outside lookback window",
+    "2606.16533": "outside lookback window",
+    "2606.17046": "outside lookback window",
+    "2606.17846": "outside lookback window",
+    "2606.17906": "outside lookback window",
+    "2606.19531": "outside lookback window",
+    "2606.20521": "outside lookback window",
+    "2606.20562": "outside lookback window",
+    "2606.20867": "outside lookback window",
+    "2606.32026": "outside lookback window",
+    "2607.08127": "outside lookback window",
+    "2608.04404": "outside lookback window",
+    "2608.05706": "outside lookback window",
+    "2608.07468": "outside lookback window",
+    "2608.22067": "outside lookback window",
+    "2608.24882": "outside lookback window",
+    "2608.25956": "outside lookback window",
+    "2608.27033": "outside lookback window",
+    "2608.27259": "outside lookback window",
+    "2608.28995": "outside lookback window",
+    "2608.29937": "outside lookback window",
+    "2608.30237": "outside lookback window",
+    "2609.00188": "outside lookback window",
+    "2609.02159": "outside lookback window",
+    "2609.02531": "outside lookback window",
+    "2609.03602": "outside lookback window"
+  }
+}
