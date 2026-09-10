@@ -26,6 +26,7 @@ from collections import defaultdict
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Iterable
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -33,6 +34,7 @@ CONFIG_PATH = ROOT / "config" / "paper-radar.json"
 LATEST_PATH = ROOT / "docs" / "papers" / "latest.md"
 INDEX_PATH = ROOT / "data" / "papers" / "index.json"
 RUNS_DIR = ROOT / "data" / "papers" / "runs"
+RUN_TIMEZONE = ZoneInfo("Asia/Shanghai")
 
 ARXIV_ID_RE = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})(?:v\d+)?", re.I)
 SECTION_RE = re.compile(r"^##\s+(.+?)\s*$")
@@ -509,6 +511,14 @@ def validate_document(markdown: str) -> None:
         raise ValueError(f"displayed paper count does not match article count ({articles})")
 
 
+def current_run_date(now: dt.datetime | None = None) -> dt.date:
+    """Return the calendar day used by the Beijing-time workflow schedule."""
+    instant = now or dt.datetime.now(dt.timezone.utc)
+    if instant.tzinfo is None:
+        raise ValueError("current time must be timezone-aware")
+    return instant.astimezone(RUN_TIMEZONE).date()
+
+
 def run_update(args: argparse.Namespace) -> int:
     config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     markdown = LATEST_PATH.read_text(encoding="utf-8")
@@ -517,7 +527,7 @@ def run_update(args: argparse.Namespace) -> int:
         print("[paper-radar] document validation passed")
         return 0
 
-    run_date = dt.date.fromisoformat(args.today) if args.today else dt.datetime.now(dt.timezone.utc).date()
+    run_date = dt.date.fromisoformat(args.today) if args.today else current_run_date()
     if has_date_section(markdown, run_date):
         print(f"[paper-radar] section already exists for {run_date.isoformat()}; nothing to do")
         return 0

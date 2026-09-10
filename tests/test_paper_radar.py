@@ -98,6 +98,13 @@ class PaperRadarTests(unittest.TestCase):
             paper_radar.has_date_section(markdown, dt.date(2026, 9, 11))
         )
 
+    def test_run_date_uses_beijing_calendar_day(self):
+        utc_time = dt.datetime(2026, 9, 10, 16, 30, tzinfo=dt.timezone.utc)
+        self.assertEqual(
+            paper_radar.current_run_date(utc_time),
+            dt.date(2026, 9, 11),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
