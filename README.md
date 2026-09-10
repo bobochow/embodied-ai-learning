@@ -2,7 +2,7 @@
 
 > 从经典 VLA 到前沿 WAM，把论文谱系、模型规格、基准硬数据与产业生态连成一张可检索、可追溯的具身智能研究地图。
 
-**[在线访问](https://zhuyun97.github.io/embodied-ai-learning/)** · [VLA 路线](https://zhuyun97.github.io/embodied-ai-learning/vla/) · [WAM 路线](https://zhuyun97.github.io/embodied-ai-learning/wam/) · [最新论文](https://zhuyun97.github.io/embodied-ai-learning/papers/latest) · [具身新闻](https://zhuyun97.github.io/embodied-ai-learning/news/) · [知识图谱](https://zhuyun97.github.io/embodied-ai-learning/ecosystem/paper-graph)
+**[在线访问](https://bobochow.github.io/embodied-ai-learning/)** · [VLA 路线](https://bobochow.github.io/embodied-ai-learning/vla/) · [WAM 路线](https://bobochow.github.io/embodied-ai-learning/wam/) · [最新论文](https://bobochow.github.io/embodied-ai-learning/papers/latest) · [具身新闻](https://bobochow.github.io/embodied-ai-learning/news/) · [知识图谱](https://bobochow.github.io/embodied-ai-learning/ecosystem/paper-graph)
 
 ## 这是什么
 
@@ -59,9 +59,14 @@ npm run docs:preview  # 预览构建结果
 npm run graph:build   # 重建离线知识图谱数据
 npm run graph:html    # 重建 Graphify 图谱页面
 npm run news:run      # 本地运行新闻抓取与合并流程
+npm run papers:update # 抓取、筛选并写入每日论文候选
+npm run papers:check  # 校验论文页日期、计数与去重约束
+npm run test:papers   # 运行论文雷达单元测试
 ```
 
 `graph:html` 需要本机可用的 Graphify CLI；也可通过 `GRAPHIFY_BIN=/path/to/graphify` 指定路径。新闻抓取依赖相应环境变量，日常内容维护无需配置付费 API。
+
+论文雷达从 DailyArxiv 与 awesome-vla-wam 的指定栏目发现候选，再以 arXiv 元数据核验、去重和排序。定时任务只创建草稿 PR，方便合并前人工检查；如配置仓库 Secret `ANTHROPIC_API_KEY`，会生成受输入摘要约束的中文摘要，否则保留明确标记的英文待复核摘要。详见 `scripts/papers/README.md`。
 
 ## 内容结构
 

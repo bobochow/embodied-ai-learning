@@ -200,4 +200,4 @@ description: 具身智能 / VLA 领域公开高质量外部资源导航——精
 
 ---
 
-*本页为外部资源导航,链接经核实存在;⭐/活跃度为 2026-05 核查快照,会变动。资源收录以"高质量 + 与 VLA/具身操作相关"为准,欢迎在 [GitHub 仓库](https://github.com/ZhuYun97/embodied-ai-learning) 补充。*
+*本页为外部资源导航,链接经核实存在;⭐/活跃度为 2026-05 核查快照,会变动。资源收录以"高质量 + 与 VLA/具身操作相关"为准,欢迎在 [GitHub 仓库](https://github.com/bobochow/embodied-ai-learning) 补充。*

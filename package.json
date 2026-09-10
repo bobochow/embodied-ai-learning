@@ -11,7 +11,10 @@
     "graph:html": "node scripts/build-graphify-html.mjs",
     "news:fetch": "node scripts/fetch-news.mjs",
     "news:merge": "node scripts/news-merge.mjs",
-    "news:run": "npm run news:fetch && npm run news:merge"
+    "news:run": "npm run news:fetch && npm run news:merge",
+    "papers:update": "python3 scripts/papers/update.py",
+    "papers:check": "python3 scripts/papers/update.py --check",
+    "test:papers": "python3 -m unittest discover -s tests -p 'test_*.py'"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",

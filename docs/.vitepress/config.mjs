@@ -279,7 +279,7 @@ export default withMermaid(defineConfig({
 
   // SEO:生成 sitemap.xml(GitHub Pages 项目页完整域名)
   sitemap: {
-    hostname: 'https://zhuyun97.github.io/embodied-ai-learning/',
+    hostname: 'https://bobochow.github.io/embodied-ai-learning/',
   },
 
   // 启用 LaTeX 数学公式渲染(需 markdown-it-mathjax3,已在 devDependencies)
@@ -371,7 +371,7 @@ export default withMermaid(defineConfig({
   // 不会把自评数字洗成裸事实。纯静态产物,无运行时。
   buildEnd: async (siteConfig) => {
     try {
-      const ORIGIN = 'https://zhuyun97.github.io/embodied-ai-learning/'
+      const ORIGIN = 'https://bobochow.github.io/embodied-ai-learning/'
       const srcDir = siteConfig.srcDir
       const outDir = siteConfig.outDir
 
@@ -631,16 +631,16 @@ export default withMermaid(defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: '具身星图' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
-    ['meta', { property: 'og:url', content: 'https://zhuyun97.github.io/embodied-ai-learning/' }],
+    ['meta', { property: 'og:url', content: 'https://bobochow.github.io/embodied-ai-learning/' }],
     ['meta', { property: 'og:title', content: '具身星图 · Embodied AI Atlas' }],
     ['meta', { property: 'og:description', content: 'VLA × WAM 前沿谱系、88 篇论文细读、知识图谱、新闻与产业生态,经多源检索与对抗式事实核查整理。' }],
-    ['meta', { property: 'og:image', content: 'https://zhuyun97.github.io/embodied-ai-learning/og.png' }],
+    ['meta', { property: 'og:image', content: 'https://bobochow.github.io/embodied-ai-learning/og.png' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: '具身星图 · Embodied AI Atlas' }],
     ['meta', { name: 'twitter:description', content: 'VLA × WAM 前沿谱系、88 篇论文细读、知识图谱与产业生态,经对抗式事实核查整理。' }],
-    ['meta', { name: 'twitter:image', content: 'https://zhuyun97.github.io/embodied-ai-learning/og.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://bobochow.github.io/embodied-ai-learning/og.png' }],
   ],
 
   themeConfig: {
@@ -749,11 +749,11 @@ export default withMermaid(defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ZhuYun97/embodied-ai-learning' },
+      { icon: 'github', link: 'https://github.com/bobochow/embodied-ai-learning' },
     ],
 
     editLink: {
-      pattern: 'https://github.com/ZhuYun97/embodied-ai-learning/edit/main/docs/:path',
+      pattern: 'https://github.com/bobochow/embodied-ai-learning/edit/main/docs/:path',
       text: '在 GitHub 上编辑本页',
     },
 

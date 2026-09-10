@@ -387,7 +387,7 @@ import HomePagePanel from './.vitepress/theme/components/HomePagePanel.vue'
     <a href="news/">最新新闻</a>
     <a href="vla/papers/benchmarks">基准速查</a>
     <a href="vla/guide">如何阅读</a>
-    <a href="https://github.com/ZhuYun97/embodied-ai-learning" target="_blank" rel="noreferrer">GitHub 开源 ↗</a>
+    <a href="https://github.com/bobochow/embodied-ai-learning" target="_blank" rel="noreferrer">GitHub 开源 ↗</a>
   </nav>
 </div>
 

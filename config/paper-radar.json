@@ -1,0 +1,35 @@
+{
+  "lookback_days": 30,
+  "max_publish": 15,
+  "max_per_source_section": 30,
+  "min_relevance_score": 5,
+  "sources": {
+    "daily_arxiv": {
+      "repository": "Ed1sonChen/DailyArxiv",
+      "readme_url": "https://raw.githubusercontent.com/Ed1sonChen/DailyArxiv/main/README.md",
+      "sections": [
+        "Vision Language Action",
+        "world action model"
+      ]
+    },
+    "awesome_vla_wam": {
+      "repository": "DravenALG/awesome-vla-wam",
+      "readme_url": "https://raw.githubusercontent.com/DravenALG/awesome-vla-wam/main/README.md",
+      "sections": [
+        "VLA Models",
+        "World Action Models",
+        "Policies",
+        "Latent Action Models",
+        "Human Action Pretraining",
+        "Code as Policy"
+      ]
+    }
+  },
+  "negative_terms": [
+    "clinical",
+    "earth system",
+    "medical imaging",
+    "radiograph",
+    "weather forecasting"
+  ]
+}

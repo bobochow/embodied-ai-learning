@@ -1,0 +1,3089 @@
+{
+  "version": 1,
+  "papers": {
+    "2506.12851": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2512.01715": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2512.11891": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2512.18368": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2512.22539": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2603.17720": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2603.28545": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2605.26284": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2605.27491": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.02577": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.09215": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.09457": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.14752": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.17030": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.23531": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.24049": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.24101": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.24448": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.24472": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.24742": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.24884": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.25215": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.25360": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.25591": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.25800": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.25985": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26006": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26095": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26201": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26423": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26443": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26588": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26603": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26663": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26801": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.26855": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27079": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27144": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27146": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27239": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27251": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27268": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27295": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27325": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27326": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27355": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27374": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27475": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27581": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27663": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27676": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27677": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27755": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27766": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27807": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27813": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27871": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27872": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.27962": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28128": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28133": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28182": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28192": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28237": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28276": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28320": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28323": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28385": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28455": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28476": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28712": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28804": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28805": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.28813": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29028": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29089": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29201": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29384": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29501": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29517": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29834": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29892": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29898": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29908": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29936": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29940": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.29941": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30113": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30367": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30456": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30457": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30552": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30645": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30686": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30749": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.30988": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31037": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31101": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31132": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31167": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31236": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31260": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31329": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31377": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31382": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31451": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31493": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31494": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31682": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31694": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31723": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31836": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31846": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31909": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31958": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.31993": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.32009": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.32027": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2606.32028": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00020": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00031": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00033": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00148": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00272": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00302": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00351": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00483": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00666": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00678": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.00836": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01051": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01060": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01067": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01111": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01166": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01212": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01378": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01410": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01586": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01651": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01684": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01721": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01804": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.01938": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02034": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02045": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02075": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02092": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02195": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02205": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02222": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02322": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02332": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02403": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02417": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02431": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02466": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02479": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02501": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02503": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.02517": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04434": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04517": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04546": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04591": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04609": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04610": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04616": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04652": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04681": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04714": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04739": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04816": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04837": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04880": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04927": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04940": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.04988": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05122": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05241": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05377": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05390": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05396": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05468": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05765": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05780": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05869": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05883": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.05966": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06018": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06052": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06165": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06256": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06323": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06370": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06403": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06438": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06442": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06558": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06559": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06564": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06882": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06978": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06988": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.06990": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07076": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07101": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07129": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07196": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07287": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07370": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07403": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07420": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07430": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07459": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07491": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07534": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07574": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07608": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07622": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07675": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07830": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.07972": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08283": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08341": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08436": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08448": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08575": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08639": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08724": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08742": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08751": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08857": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08877": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08948": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.08974": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09185": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09190": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09191": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09218": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09234": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09365": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09515": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09519": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09590": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.09648": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11270": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11397": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11427": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11481": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11498": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11570": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11643": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11689": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11690": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11855": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11874": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.11884": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12356": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12547": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12571": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12659": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12702": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12892": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12894": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12931": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.12992": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13017": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13033": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13154": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13429": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13455": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13479": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13522": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13597": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13605": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13653": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13818": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13882": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.13960": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14021": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14047": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14183": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14236": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14280": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14341": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14439": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14487": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14543": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14578": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14609": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14635": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14695": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14698": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14842": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14852": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14943": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.14997": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15065": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15163": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15207": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15275": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15330": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15448": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15641": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15714": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15746": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15868": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.15982": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.16123": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.16146": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.16187": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.17651": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.17786": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.17970": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.17977": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18016": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18060": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18062": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18154": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18231": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18236": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18660": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18709": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18760": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18840": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.18985": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.19190": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.19343": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.19479": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.19745": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.19876": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.19919": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.20033": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.20207": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.20345": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.20653": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.20683": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21017": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21341": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21522": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21582": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21588": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21648": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21655": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21661": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21670": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21725": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.21918": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.22020": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.22119": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.22249": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.22530": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.22535": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.26579": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.26657": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.26789": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.26809": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.26991": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27017": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27138": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27180": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27205": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27261": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27511": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27549": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27599": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27782": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27784": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27881": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27890": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.27924": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.28198": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.28382": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.28391": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.28416": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.28596": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.28993": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29169": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29172": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29231": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29235": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29271": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29285": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29302": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29482": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29569": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29596": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29613": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29622": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2607.29687": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.02653": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.02958": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.02990": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03052": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03103": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03116": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03231": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03387": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03483": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03563": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03682": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03701": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03727": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03753": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03872": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.03924": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.06434": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.06729": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.06799": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.06965": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.06994": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07002": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07045": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07065": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07075": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07267": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07314": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07596": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07600": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07619": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.07895": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08023": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08036": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08070": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08558": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08725": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08749": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.08839": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.09381": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.09410": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.09448": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.09492": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.09730": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.09771": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10220": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10232": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10383": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10393": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10484": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10600": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10718": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10756": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10780": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10824": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.10860": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11174": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11246": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11350": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11363": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11521": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11671": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11739": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11769": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.11901": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.12063": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.12122": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.12416": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.12860": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13014": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13026": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13049": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13103": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13362": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13415": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13422": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13438": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13474": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13489": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13555": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13605": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13678": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13719": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13901": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.13924": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.14028": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.14047": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.14049": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.14284": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.14379": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.14406": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.16885": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.16978": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17027": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17129": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17209": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17386": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17423": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17432": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17453": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17484": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17584": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17600": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17601": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.17962": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2608.18077": {
+      "first_seen": "historical",
+      "sources": [
+        "site_archive"
+      ]
+    },
+    "2609.02546": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "awesome_vla_wam",
+        "daily_arxiv"
+      ],
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation"
+    },
+    "2608.26103": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "awesome_vla_wam",
+        "daily_arxiv"
+      ],
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization"
+    },
+    "2609.04193": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation"
+    },
+    "2602.18532": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "title": "VLANeXt: Recipes for Building Strong VLA Models"
+    },
+    "2605.29605": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "title": "VLAConf: Calibrated Task-Success Confidence for Vision-Language-Action Models"
+    },
+    "2609.09158": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model"
+    },
+    "2607.10655": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Artificial Foveated Perception for Mitigating Shortcut Learning in Robotic Foundation Models"
+    },
+    "2609.07047": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation"
+    },
+    "2609.06251": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "MobileVLA-R1 2.0: RL-Enhanced Reasoning for Mobile Robot Control"
+    },
+    "2609.05832": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation"
+    },
+    "2609.05266": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation"
+    },
+    "2608.27550": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models"
+    },
+    "2609.09119": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination"
+    },
+    "2606.08015": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Q-VGM: Q-Guided Value-Gradient Matching for Offline-to-Online RL of Flow-Matching VLA"
+    },
+    "2608.01397": {
+      "first_seen": "2026-09-10",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    }
+  },
+  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+}

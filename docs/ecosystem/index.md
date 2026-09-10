@@ -5,7 +5,7 @@ description: 国际与国内具身智能公司、科研机构与生态地图一�
 
 # 具身智能生态全景
 
-收录全球主要具身智能公司与科研机构，涵盖人形机器人、VLA 模型、四足机器人及机器人基础平台。列表持续更新，欢迎在 [GitHub](https://github.com/ZhuYun97/embodied-ai-learning) 提交补充。
+收录全球主要具身智能公司与科研机构，涵盖人形机器人、VLA 模型、四足机器人及机器人基础平台。列表持续更新，欢迎在 [GitHub](https://github.com/bobochow/embodied-ai-learning) 提交补充。
 
 [![GPT-IMAGE2 生成的具身智能生态全景图:公司、研究机构、机器人硬件、基础模型、数据集、评测与应用场景连接成网络](/figures/ecosystem-cover-gpt-image2.jpg)](/figures/ecosystem-cover-gpt-image2.jpg)
 
@@ -158,5 +158,5 @@ VLA / WAM 人工策展图谱与 Graphify 离线全站图谱已合并为同一页
 
 ---
 
-> **数据来源**: WebSearch 交叉核实，融资数据截至 2026 年 6 月。如有遗漏或信息有误，欢迎通过 [GitHub Issue](https://github.com/ZhuYun97/embodied-ai-learning/issues) 反馈。
+> **数据来源**: WebSearch 交叉核实，融资数据截至 2026 年 6 月。如有遗漏或信息有误，欢迎通过 [GitHub Issue](https://github.com/bobochow/embodied-ai-learning/issues) 反馈。
 </details>

@@ -1,0 +1,75 @@
+name: Paper Radar - 自动候选与审核 PR
+
+on:
+  schedule:
+    # arXiv 美国东部工作日更新后，北京时间周一至周五约 00:30 运行。
+    - cron: '30 16 * * 0-4'
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: '回溯天数'
+        required: false
+        default: '7'
+      max_publish:
+        description: '单次最多候选数'
+        required: false
+        default: '15'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: paper-radar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Fetch, rank, and render candidates
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PAPER_LLM_MODEL: ${{ vars.PAPER_LLM_MODEL || 'claude-sonnet-4-6' }}
+        run: >-
+          python3 scripts/papers/update.py
+          --lookback-days '${{ inputs.lookback_days || '7' }}'
+          --max-publish '${{ inputs.max_publish || '15' }}'
+
+      - name: Validate paper data
+        run: |
+          python3 scripts/papers/update.py --check
+          python3 -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Install site dependencies
+        run: npm ci
+
+      - name: Build VitePress site
+        run: npm run docs:build
+
+      - name: Create or update draft review PR
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: bot/daily-papers
+          delete-branch: true
+          draft: always-true
+          commit-message: 'papers: update daily embodied AI radar'
+          title: 'papers: daily embodied AI candidates'
+          body: |
+            自动候选来自 DailyArxiv 与 awesome-vla-wam，并使用 arXiv 元数据重新核验。
+
+            合并前请人工检查：
+            - 方向与 P0/P1 优先级
+            - 中文摘要和实验数字
+            - 是否应进入正式细读队列
+          add-paths: |
+            data/papers/**
+            docs/papers/latest.md

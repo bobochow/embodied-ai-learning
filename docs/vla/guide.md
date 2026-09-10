@@ -86,4 +86,4 @@ description: 如何阅读具身星图——内容地图、推荐阅读路径、�
 
 ## 贡献与反馈
 
-发现失效链接、数字错误或想补充内容,欢迎在 [GitHub 仓库](https://github.com/ZhuYun97/embodied-ai-learning) 提 issue 或 PR。每页右上角也有「在 GitHub 上编辑本页」入口。
+发现失效链接、数字错误或想补充内容,欢迎在 [GitHub 仓库](https://github.com/bobochow/embodied-ai-learning) 提 issue 或 PR。每页右上角也有「在 GitHub 上编辑本页」入口。
