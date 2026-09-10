@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2609.10243": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects"
+    },
+    "2609.04355": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models"
+    },
+    "2609.07398": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+    },
+    "2609.02653": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "HINT: Human-Intent Inception for Long-Horizon Robot Manipulation"
+    },
+    "2609.10405": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models"
+    },
+    "2603.12665": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "TacVLA: Contact-Aware Tactile Fusion for Robust Vision-Language-Action Manipulation"
+    },
+    "2609.05588": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation"
+    },
+    "2609.09925": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models"
+    },
+    "2609.09250": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies"
+    },
+    "2609.07838": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics"
+    },
+    "2609.07581": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models"
+    },
+    "2609.07470": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy"
+    },
+    "2606.17463": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "WeaveLA: Event Driven Cross-Subtask Latent Memory Weaving for Repetitive Robot Manipulation"
+    },
+    "2609.07049": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring"
+    },
+    "2609.07006": {
+      "first_seen": "2026-09-11",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-09-10T19:11:37.363769+00:00"
 }
