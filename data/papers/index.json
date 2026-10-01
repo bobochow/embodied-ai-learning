@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2609.39763": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "DiffWAM: A Fast and Efficient Navigation World Action Model"
+    },
+    "2609.40341": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?"
+    },
+    "2606.00773": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "SafeVLA-Bench: A Benchmark for the Success-Safety Gap in Vision-Language-Action Models"
+    },
+    "2609.40007": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Multi-Link Safety Filtering for VLA Policies Around Moving Hazards"
+    },
+    "2609.34199": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "WB-WAM: Heterogeneous Body-Hand Pre-training for Humanoid Loco-Manipulation"
+    },
+    "2609.39526": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Discrete Forcing: Infusing Discrete Guidance into Continuous Denoising for Few-Step Action Experts"
+    },
+    "2609.33748": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "AnyStep-WAM: Budget-Aligned Distillation and Adaptive Inference for World Action Models"
+    },
+    "2609.37810": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Explore, Execute, Evolve: A Skill Acquisition and Reuse Loop for Embodied Agents"
+    },
+    "2609.40134": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Tactile Curiosity Drives Robot Interaction"
+    },
+    "2609.35450": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation"
+    },
+    "2609.39403": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining"
+    },
+    "2609.38046": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "EgoAlign: Bridging the Human-Humanoid Gap for Long-Range Loco-Manipulation"
+    },
+    "2609.39388": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "UniWAM Technical Report: Unified Mobile Manipulation via Mixed-Stream World-Action Modeling and Manipulation Anchor Pose Supervision"
+    },
+    "2609.39324": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "MotionWeave: Learning Motion-Centered Future Dynamics for Vision-Language-Action Policies"
+    },
+    "2609.39198": {
+      "first_seen": "2026-10-02",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "DSDyn-VLA: A Dual-Stream Dynamic Manipulation Framework with Motion Perception, Future Awareness, and Realtime Correction"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-10-01T21:12:15.312591+00:00"
 }
