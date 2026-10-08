@@ -3083,7 +3083,113 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2606.05254": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "awesome_vla_wam",
+        "daily_arxiv"
+      ],
+      "title": "Flash-WAM: Modality-Aware Distillation for World Action Models"
+    },
+    "2505.12224": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "RoboFAC: A Comprehensive Framework for Robotic Failure Analysis and Correction"
+    },
+    "2610.04913": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "$R^2$-WAM: Repair-and-Reject Post-Training for World Action Models"
+    },
+    "2509.19571": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Agentic Scene Policies"
+    },
+    "2605.07079": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Learning Visual Feature-Based World Models via Residual Latent Action"
+    },
+    "2610.06965": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ACG-WAM: World-Action Modeling via Action-Conditioned Geometric Latent Prediction"
+    },
+    "2610.09940": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Juno: Taming Predictive Latents for Vision-Language-Action Models"
+    },
+    "2609.14156": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Visible Touch: Rendering Contact for Visuomotor Policies"
+    },
+    "2610.08425": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "MIM-VLA: Learning Physical Interaction Representations from Gripper Motor Feedback"
+    },
+    "2610.08119": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "AutodidactWAM: Cross-Modal Self-Distillation from Generated Video to Robot Actions"
+    },
+    "2609.30247": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Rolling-WAM: World Action Models with Rolling Imagination"
+    },
+    "2610.10528": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Long-WAM: Scaling the Context of World-Action Models"
+    },
+    "2610.10270": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Video Prediction Policy 2: Predict Better, Act Better"
+    },
+    "2610.10079": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "RealtimeWAM: How Fast Can I Run My World Action Model?"
+    },
+    "2610.01083": {
+      "first_seen": "2026-10-09",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "WBAG: A Whole-Body and Attached-Geometry Safety Framework for Vision-Language-Action Manipulation"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-10-08T21:26:22.408762+00:00"
 }
