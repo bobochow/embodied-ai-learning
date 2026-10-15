@@ -1,0 +1,853 @@
+{
+  "run_date": "2026-10-16",
+  "cutoff_date": "2026-10-09",
+  "llm_enriched": false,
+  "provenance": {
+    "daily_arxiv": {
+      "repository": "Ed1sonChen/DailyArxiv",
+      "readme_url": "https://raw.githubusercontent.com/Ed1sonChen/DailyArxiv/main/README.md",
+      "readme_sha256": "6a24493852e88a7642599bc81331523feec0eed2901971d49677a13997873b69",
+      "sections": {
+        "Vision Language Action": 30,
+        "world action model": 30
+      }
+    },
+    "awesome_vla_wam": {
+      "repository": "DravenALG/awesome-vla-wam",
+      "readme_url": "https://raw.githubusercontent.com/DravenALG/awesome-vla-wam/main/README.md",
+      "readme_sha256": "2e1a9182ff6ce509b301f1c9304ee7226af542b05581fdfcc22188b89bd32c7d",
+      "sections": {
+        "VLA Models": 30,
+        "World Action Models": 30,
+        "Policies": 18,
+        "Latent Action Models": 22,
+        "Human Action Pretraining": 6,
+        "Code as Policy": 0
+      }
+    }
+  },
+  "candidate_count": 145,
+  "eligible_count": 53,
+  "selected_count": 15,
+  "selection_trace": {
+    "vla": {
+      "top_10": [
+        "2610.20351",
+        "2610.20223",
+        "2610.20064",
+        "2610.19753",
+        "2610.19677",
+        "2610.19656",
+        "2610.19600",
+        "2610.19579",
+        "2610.19517",
+        "2610.19495"
+      ],
+      "top_3": [
+        "2610.20351",
+        "2610.20223",
+        "2610.20064"
+      ],
+      "top_1": [
+        "2610.20351"
+      ]
+    },
+    "wam": {
+      "top_10": [
+        "2609.27455",
+        "2610.18038",
+        "2610.18873",
+        "2610.20442",
+        "2610.20157",
+        "2610.19957",
+        "2610.18852",
+        "2610.18697",
+        "2610.18568",
+        "2607.03941"
+      ],
+      "top_3": [
+        "2609.27455",
+        "2610.18038",
+        "2610.18873"
+      ],
+      "top_1": [
+        "2609.27455"
+      ]
+    },
+    "data": {
+      "top_10": [
+        "2610.19604"
+      ],
+      "top_3": [
+        "2610.19604"
+      ],
+      "top_1": [
+        "2610.19604"
+      ]
+    },
+    "humanoid": {
+      "top_10": [
+        "2606.01458",
+        "2606.08278",
+        "2603.14371",
+        "2610.18774",
+        "2610.12026",
+        "2604.05656"
+      ],
+      "top_3": [
+        "2606.01458",
+        "2606.08278",
+        "2603.14371"
+      ],
+      "top_1": [
+        "2606.01458"
+      ]
+    },
+    "tactile": {
+      "top_10": [
+        "2610.18855"
+      ],
+      "top_3": [
+        "2610.18855"
+      ],
+      "top_1": [
+        "2610.18855"
+      ]
+    }
+  },
+  "selected": [
+    {
+      "arxiv_id": "2609.27455",
+      "title": "LeWAM: Latent evolving World Action Model",
+      "abstract": "World Action Models (WAMs) jointly model action generation and environment dynamics and are mostly built on pretrained Video Diffusion Models (VDMs). In VDM-based WAMs, observations are first encoded by a VAE, and the resulting compressed latents are then processed by large video diffusion backbones to extract effective features for action generation. However, this paradigm ties WAM performance and training cost to large-scale video generation pretraining, limiting WAM efficiency and scalability. In this paper, we theoretically and empirically investigate how visual representations affect action generation in WAMs. Our results show that predictive embeddings from Joint-Embedding Predictive Architecture (JEPA) encoders better support action generation than compressed VAE latents, with I-JEPA performing best in our encoder comparison. Based on these findings, we propose LeWAM, which conditions action generation on JEPA embeddings and models environment evolution by predicting future embeddings in the same space, without relying on a video diffusion backbone. We further find that imitation learning matches demonstrated actions but does not distinguish better actions from worse ones, even though small action deviations can greatly affect task success. To address this limitation without additional environment interaction or the human oversight required for resets and safety, we introduce Demonstration-Guided DPO (DemoDPO), an offline preference refinement stage that derives preference supervision directly from demonstrations. With only 0.4B trainable parameters, LeWAM achieves an average success rate of 92.28\\% on RoboTwin 2.0, comparable to that of state-of-the-art VLAs and WAMs, and maintains practical effectiveness on real-world manipulation tasks.",
+      "authors": [
+        "Xueji Fang",
+        "Boqiang Duan",
+        "Hua Wu",
+        "Jingdong Wang",
+        "Guo-Jun Qi"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "published": "2026-09-23T07:22:43Z",
+      "updated": "2026-10-10T05:28:17Z",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "source_sections": [
+        "World Action Models"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 12,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "curated awesome-vla-wam source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.18038",
+      "title": "Data-Free Continual Learning for World Action Model with Rectified Generative Replay",
+      "abstract": "World action models (WAMs) built on pretrained video generation models adapt quickly to new robotic tasks, but they forget previously learned tasks under sequential fine-tuning. Experience replay (ER) mitigates such forgetting by rehearsing data of previous tasks, yet this data is often unavailable in robotics, where a policy is deployed as weights only and its training data is not shared along with it. In this work, we ask whether a WAM can achieve data-free continual learning by regenerating its own past. Our key observation is that a WAM can indeed autoregressively regenerate complete rollouts of previously learned tasks and replay them to mitigate forgetting. However, replaying such raw rollouts still lags far behind replaying real data, which we attribute to two issues. First, the WAM is unable to recognize task completion and keeps generating purposeless motion after the task is done. Second, under open-loop generation, the generated actions gradually drift away from the generated observations. To address both issues, we present rectified generative replay (R$^2$-WAM), which truncates generated rollouts at task completion with an agentic evaluator and filters out rollouts whose actions are physically inconsistent with the observations. On the four LIBERO suites and five real-world tasks, R$^2$-WAM reduces forgetting by over 90% relative to sequential fine-tuning and nearly matches ER without accessing any data from previous tasks. Our analysis further reveals that forgetting in WAMs concentrates in inverse dynamics modeling: a forgotten WAM still produces visually plausible observations of previous tasks while its generated actions fail. Project page: https://kaipengfang.github.io/r2-wam/",
+      "authors": [
+        "Kaipeng Fang",
+        "Hangxu Liu",
+        "Chaojian Shi",
+        "Yunsong Zhou",
+        "Hongzi Zhu",
+        "Minyi Guo",
+        "Jingkuan Song",
+        "Lianli Gao"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-10-13T09:27:32Z",
+      "updated": "2026-10-14T11:46:57Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 11,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19604",
+      "title": "ForceBench: Benchmarking Force Integration for Robotic Manipulation",
+      "abstract": "Force feedback provides vision-language-action (VLA) policies with physical observations that can guide action selection and execution. However, differences in tasks, demonstrations, and control settings across existing systems hinder reliable comparisons of force integration designs. We introduce ForceBench, a simulation benchmark for evaluating six-axis wrist-force integration under a unified protocol. ForceBench combines eight tasks spanning physical-property inference, resistance-dependent interaction, and contact-rich assembly with 1,600 synchronized demonstrations and task-specific success criteria. We compare one no-force baseline and six force integration designs on a shared $π_{0.5}$ backbone. Prompt Fusion achieves the highest observed mean simulation success of 35.31%, compared with 23.25% for the baseline, and improves success rates across all three task categories. Predictive and temporal gains in simulation concentrate on physical-property inference, while both temporal designs underperform the baseline on assembly. Real-world evaluation of eight systems across five tasks supports the main qualitative trends: Prompt Fusion and Dual-Path Fusion achieve 63.00% mean success, compared with 40.00% for the baseline, but only Prompt Fusion improves every task. These findings support ForceBench's practical value for identifying the benefits and limitations of force integration across manipulation demands. The project page is available at https://forcebench-platform.github.io/.",
+      "authors": [
+        "Xuan Han",
+        "Zinuo Jin",
+        "Tianlin Li",
+        "Yunfan Lou",
+        "Xin Liu",
+        "Yuchen Xue",
+        "Yuanpeng He",
+        "Boxian Yao",
+        "Shuhan Zhan",
+        "Ruihai Wu",
+        "Zhibo Pang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-14T05:28:09Z",
+      "updated": "2026-10-14T05:28:09Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "data",
+      "priority": "P0",
+      "relevance_score": 11,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "BENCHMARK",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.18873",
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts",
+      "abstract": "Scaling expert demonstrations alone does not enable generalist robot policies to improve from deployment. Real-world rollouts contain successes, suboptimal behavior, and failures: imitating every recorded action can reinforce poor behavior, while filtering out failures discards evidence of physical interactions and their consequences. We introduce \\textbf{LoopWAM}, a closed-loop world-action model that learns directly from this full quality spectrum, using rollouts from both itself and other deployed policies. Source-dependent noise sampling unifies behavior learning and action-conditioned world modeling, while quality steering and quality-weighted supervision retain full video supervision across qualities and regulate action imitation. Video and action tokens interact throughout parallel denoising, allowing learned consequences to inform action generation directly. On RoboChallenge Table30-V2, three deployment-and-training rounds raise success from 23.67\\% to 43.33\\%, a 19.7-percentage-point gain, with a final score of 56.80. LoopWAM also achieves 94.5\\% average success on RoboTwin~2.0 and 49.5\\% overall success on RoboCasa365 without additional embodied pretraining, obtaining the best overall results among the compared methods across all three benchmarks. On challenging shirt folding task, two rounds of deployment-driven improvement after single-task post-training raise success from 13.20\\% to 55.56\\%. These results demonstrate closed-loop improvement from mixed-quality experience under both multi-task learning and single-task post-training. \\href{https://loop-wam.github.io/}{\\textcolor{orange}{Project Page}}",
+      "authors": [
+        "Wenxuan Guo",
+        "Yingping Liang",
+        "Zhaoguo Wang",
+        "Ziyuan Li",
+        "Angyuan Ma",
+        "Zhenyu Wu",
+        "Chengkun Wang",
+        "Bingyao Yu",
+        "Ze Chen",
+        "Borui Zhang",
+        "Xiuwei Xu",
+        "Meng Zhang",
+        "Erjin Zhou",
+        "Jiwen Lu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-10-13T17:59:56Z",
+      "updated": "2026-10-13T17:59:56Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 11,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM",
+        "BENCHMARK",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.18855",
+      "title": "Interaction Latents as Actions for Contact-Rich Manipulation",
+      "abstract": "Contact-rich manipulation requires robots to coordinate not only where to move, but also how contact and force should evolve throughout an interaction. Yet most robot policies represent actions primarily as motion trajectories, using tactile signals as inputs or auxiliary prediction targets without explicitly encoding contact dynamics in the action representation. We propose ILA (Interaction Latents as Actions), which uses decodable interaction latents that jointly capture the evolution of motion, contact, and force application as policy action units, providing a shared representation for action generation, evaluation, and offline improvement. We learn these latents through visually conditioned joint action-tactile reconstruction with a time-conditioned implicit decoder. Using them as flow-matching generation targets supports post-training of pretrained vision-language-action models (VLAs) and world action models (WAMs), as well as training flow-matching policies from scratch. A shared decoder maps generated latents to executable actions. For offline improvement, we learn a tactile-conditioned expert reference model from interaction latents encoded from expert demonstrations. The resulting expert-consistency rewards guide weighted learning from successful rollouts, while observation-compatible expert references guide correction of low-reward predictions from failed rollouts. Across three policy families, ILA improves success rates averaged over four real-world tasks by 21.0-36.5 percentage points relative to tactile-conditioned direct-action baselines. Ablations highlight the benefit of encoding contact evolution in action targets beyond tactile conditioning, while the same latent space supports expert-guided offline improvement. Project website: https://mrsecant.github.io/ILA/.",
+      "authors": [
+        "Yuhang Zheng",
+        "Yujie Zang",
+        "Yuchen Liu",
+        "Yupeng Zheng",
+        "Zhennan Jiang",
+        "Zebin Xing",
+        "Shuai Tian",
+        "Songen Gu",
+        "Jingxiang Guo",
+        "Chen Gao",
+        "Zhongpu Xia",
+        "Shuicheng Yan"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-13T17:59:16Z",
+      "updated": "2026-10-14T16:29:07Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action",
+        "world action model"
+      ],
+      "track": "tactile",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "WAM",
+        "TACTILE"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20351",
+      "title": "Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand",
+      "abstract": "Human demonstrations are today used largely for pretraining vision-language-action models, with little ability to use the same data for target-embodiment or task-oriented training, which scalable deployment of robots in industrial and general environments depends on. A human demonstration recorded on a simple and scalable device such as a mobile phone can serve as post-training data for a robot whose body differs in structure and capability from the human who recorded it. This is made possible not by retargeting the hand's motion but the object's. A capture yields a body-free record: the object's pose over time, its contact intervals, and a reconstructed 3D object with provenance. Any robot, given as a URDF and a short descriptor, is solved against that record and scored in simulation against the demonstrated object motion as ground truth: the human-to-simulation leg of human-to-simulation-to-robot transfer, measured per robot. Each (robot, episode) pair gets one outcome: pass, failure with a named mode, or refusal, with its reason, before any motion. The method runs as a working system over a growing collection; the set analysed here is a sample of it: 42 captures solved on 8 robots, 157 pairs, of which 31.2% pass, 52.2% fail, 14.0% are refused and 2.5% are unauditable (kinematic feasibility, +/-50 mm / +/-15 deg, in simulation). Refusals held up: every pair the checks refuse on stored evidence yet ran anyway failed (13 of 13; 5 on a body whose public model welds its hand). A description file could not be shown to screen a robot: its outcomes were barely more predictable than guessing. No policy has yet been trained on the record. The record decides what a robot may post-train on; whether the policy then works on the real robot is the simulation-to-robot question, answered downstream.",
+      "authors": [
+        "Nagasrikanth Kallakuri"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-10-14T15:28:23Z",
+      "updated": "2026-10-14T15:28:23Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20223",
+      "title": "ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction",
+      "abstract": "Vision-language-action (VLA) models have emerged as a powerful paradigm for robotic manipulation, enabling robots to generate actions from visual observations and language instructions. However, most existing VLA models still operate on image-level visual representations inherited from pretrained vision-language backbones, while lacking fine-grained object understanding for manipulation. As a result, their robustness can degrade under out-of-distribution object layouts, clutter, and background variations. To address these limitations, we introduce ObjDream, an object-centric VLA framework centered on object-level understanding and future object state prediction. ObjDream uses a spatio-temporal object encoder to organize visual observations into temporal object slots, where persistent object identity and dynamic object state are represented through separate channels. These structured object representations are inserted into the token sequence of the vision-language model (VLM), where identity-guided routing modulates VLM attention to the corresponding object tokens. In addition, an action-conditioned object dynamics module predicts compact future object states relevant to manipulation during training, explicitly supervising object state evolution under robot actions without requiring future prediction at inference. Experiments on LIBERO, LIBERO-Plus, and RoboTwin 2.0 show that ObjDream improves generalization under diverse distribution shifts and scene perturbations. Real-world robot experiments further demonstrate that ObjDream transfers to physical manipulation settings with novel object arrangements and background changes.",
+      "authors": [
+        "Huailiang Ma",
+        "Yuxuan Li",
+        "Ziyi Zhao",
+        "Xinkai Wang",
+        "Mingyu Li",
+        "Xinyu Guo",
+        "Lifeng Zhu",
+        "Aiguo Song",
+        "Cewu Lu",
+        "Jianhua Sun"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-14T14:06:03Z",
+      "updated": "2026-10-14T14:06:03Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20064",
+      "title": "FoveaVLA: Foveation Actions Replace the Wrist Camera in VLAs",
+      "abstract": "We present FoveaVLA, a Vision-Language-Action (VLA) model that replaces the wrist camera with learned foveation actions. Wrist cameras provide close-up detail but restrict the view to the end-effector's surroundings. External cameras see the whole scene, but the policy receives them at low resolution, so the fine detail needed for manipulation is lost. FoveaVLA recovers this detail by predicting, alongside each action chunk, the interaction region to observe at the next policy query. The policy then receives crops of these regions, taken from the original-resolution images, together with the full views. We build FoveaVLA on $π_{0.5}$ in two configurations, Single and Dual, using one or two external stereo cameras with full and foveal RGB and depth inputs, and post-train both on DROID with RoboInter interaction annotations. Across four real-world task suites, FoveaVLA-Single achieves 70.8% success with one external RGB-D view, and FoveaVLA-Dual achieves 77.1%, versus 52.1% for the wrist-equipped $π_{0.5}$. Both match the baseline on plain pick-and-place and improve success with distractors, cloth manipulation, and far-away objects.",
+      "authors": [
+        "Bingao Chen",
+        "Lihan Zha",
+        "C. Karen Liu",
+        "Guy Tevet"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-10-14T12:04:21Z",
+      "updated": "2026-10-14T12:04:21Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2606.01458",
+      "title": "LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World",
+      "abstract": "Training vision-language-action (VLA) policies for humanoid loco-manipulation is constrained by the high cost and complexity of collecting human teleoperation demonstrations. VLA policies fine-tuned in simulators have so far transferred poorly to humanoid loco-manipulation tasks. We present LEGS (Loco-manipulation via Embodied Gaussian Splatting), a hybrid simulator that composites a mesh foreground (robot, objects, props) over a photorealistic 3D Gaussian Splatting (3DGS) background reconstructed from a handheld scene capture. LEGS uses a procedural motion-primitive generator to synthesize labeled demonstrations at scale without human teleoperation, and a two-stage color calibration that aligns renders to the deployment camera. On a Unitree G1 humanoid robot, across three pick-and-place tasks of increasing whole-body difficulty and three VLA backbones ($ψ_0$, $π_{0.5}$, GR00T N1.6), a policy trained purely on LEGS data matches or exceeds one trained on human teleoperation demos on every experiment. It also outperforms a mesh-only baseline trained on the same motions without the calibrated 3DGS frontend. Because motion is recorded independently of appearance, the same demonstrations can be re-rendered for a target scene and objects at over 15x lower cost than teleoperation. When both the objects and the scene change, a policy trained on LEGS-AUG data re-rendered for that target maintains task success, while the teleop baseline fails entirely. Code and videos are available at https://hojjunekim.github.io/legs/.",
+      "authors": [
+        "Hojune Kim",
+        "Timothy Chen",
+        "Jiankai Sun",
+        "Lars W. Osterberg",
+        "Qianzhong Chen",
+        "Ke Wang",
+        "Mac Schwager"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-05-31T21:36:02Z",
+      "updated": "2026-10-14T00:21:31Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "humanoid",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "HUMANOID"
+      ]
+    },
+    {
+      "arxiv_id": "2606.08278",
+      "title": "SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation",
+      "abstract": "Humanoid foundation models are advancing faster than we can evaluate them. While real-world testing is expensive and difficult to reproduce, existing simulation benchmarks focus primarily on table-top or wheeled robots. A scalable and reproducible benchmark for whole-body humanoid loco-manipulation remains an open problem. To this end, we present SIMPLE, a unified simulation testbed for humanoid policy learning and evaluation. SIMPLE couples the accurate contact-rich dynamics of MuJoCo with the photorealistic rendering of IsaacSim. It provides a large-scale environment comprising 16 diverse whole-body tasks, 50 indoor scenes, and over 1,000 object assets. To facilitate scalable data collection, the framework integrates two data generation pipelines: automated trajectory generation via motion planning and a low-latency VR teleoperation interface. We further integrate and benchmark mainstream humanoid policies at scale in SIMPLE, including lightweight imitation networks, large vision-language-action (VLA) models, and recent world action models (WAMs). Our experiments reveal a strong correlation between policy performance in simulation and the real world. Furthermore, we demonstrate that policies trained on data collected in SIMPLE can be transferred zero-shot to physical humanoid robots under similar settings, providing a robust and reproducible foundation for humanoid robotics research.",
+      "authors": [
+        "Songlin Wei",
+        "Zhenhao Ni",
+        "Jie Liu",
+        "Zhenyu Zhao",
+        "Junjie Ye",
+        "Hongyi Jing",
+        "Junkai Xia",
+        "Xiawei Liu",
+        "Michael Leong",
+        "Liang Heng",
+        "Di Huang",
+        "Yue Wang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-06-06T17:55:43Z",
+      "updated": "2026-10-12T00:36:32Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "humanoid",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "WAM",
+        "HUMANOID"
+      ]
+    },
+    {
+      "arxiv_id": "2603.14371",
+      "title": "OxyGen: Unified KV Cache Management for VLA Inference under Multi-Task Parallelism",
+      "abstract": "Embodied AI agents increasingly require parallel execution of multiple tasks, such as manipulation, conversation, and memory construction, from shared observations under distinct time constraints. Recent Mixture-of-Transformers (MoT) Vision-Language-Action Models (VLAs) support such heterogeneous outputs, yet existing inference systems incur redundant computation and resource contention when serving concurrent tasks on-device. We identify isolated KV cache management as the root cause. To address this, we propose unified KV cache management, an inference design that treats the KV cache as a first-class shared resource across tasks and control cycles. This abstraction enables two key optimizations: cross-task KV sharing eliminates redundant prefill of shared observations, while cross-frame continuous batching batches unfinished language requests from different frames and advances them within a per-frame decoding budget. We implement this design in OxyGen and evaluate $π_{0.5}$ on NVIDIA GeForce RTX 4090 and Jetson AGX Thor. OxyGen achieves up to 3.7$\\times$ speedup over isolated execution, delivering over 200 tokens/s language throughput and 70 Hz action frequency simultaneously on RTX 4090. We also validate the design on Xiaomi-Robotics-0 and StarVLA across different backbones and expert configurations. We further demonstrate the inference gains on a humanoid robot with on-board Jetson AGX Thor.",
+      "authors": [
+        "Xiangyu Li",
+        "Huaizhi Tang",
+        "Xin Ding",
+        "Weijun Wang",
+        "Ting Cao",
+        "Yunxin Liu"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "published": "2026-03-15T13:23:56Z",
+      "updated": "2026-10-14T06:30:19Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "humanoid",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "HUMANOID"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20442",
+      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
+      "abstract": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomously, and dynamically adjust operational strategies. Although this field develops fast, current studies are not well connected. Researchers have no consistent view of how to combine different agentic functions into a complete robot system. This paper provides a unified overview of existing research on agentic robots. We first trace the development from robot policies to agentic systems, covering vision-language-action models, world models, and world-action models. We then clarify the definition and scope of agentic robots and organize existing research into seventeen categories across four functional domains: Model, Data, Environment, and Harness. Across these domains, we examine how agents shape model learning and robot decisions, collect and curate robot data, construct worlds, tasks, and tests for learning and evaluation, and organize capabilities for robot use. Finally, we discuss open challenges and outline directions for future research. Looking forward, we hope this work contributes to a clearer understanding of agentic robots and supports new approaches to making them more capable, reliable, and adaptive.",
+      "authors": [
+        "Chonghan Qin",
+        "Dongming Wu",
+        "Kaituo Feng",
+        "Jiaxu Wang",
+        "Xinlei Yu",
+        "Peiwen Sun",
+        "Yijia Fan",
+        "Xilin He",
+        "Bingao Chen",
+        "Weitong Lian",
+        "Ryan Ji",
+        "Wenqi Ren",
+        "Xiaobin Hu",
+        "Dahua Lin",
+        "Yu-Gang Jiang",
+        "Xiangyu Yue"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-14T16:32:22Z",
+      "updated": "2026-10-14T16:32:22Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action",
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "WAM",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.20157",
+      "title": "Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models",
+      "abstract": "World Action Models (WAMs) typically adapt video foundation models to robotic control through joint video and action prediction. However, task-level instructions may leave the next physical interaction underspecified, requiring semantic grounding and state-dependent motion selection. To this end, we introduce Atomic-WAM, an understand-then-execute framework that connects task reasoning to action generation through atomic-motion descriptions. Specifically, a vision-language reasoner describes the next local motion from the task instruction and visual context, guiding a WAM to predict future video and an action chunk. Furthermore, an automatic annotation pipeline curates temporally aligned, contact-enriched supervision from multi-view DROID demonstrations. To make atomic-motion predictions executable by the WAM, we post-train the reasoner with Execution-Grounded GRPO (EG-GRPO). With the WAM fixed, EG-GRPO adapts the reasoner through rewards for motion appropriateness and execution success. Finally, Atomic-WAM achieves 39.6% task success under default instructions and 31.6% under vague instructions in a real-to-sim evaluation on RoboLab. Project page: https://ssj9596.github.io/Atomic-WAM-project",
+      "authors": [
+        "Shijun Shi",
+        "Zhe Liu",
+        "Zhi Hou",
+        "Yinan Chen",
+        "Tao Zhang",
+        "Kai Hu",
+        "Yong Liu",
+        "Jiangning Zhang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-14T13:13:35Z",
+      "updated": "2026-10-14T13:13:35Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19957",
+      "title": "Complementary Future Token Pruning for World Action Models",
+      "abstract": "World action models (WAMs) jointly predict future visual states and robot actions, but processing dense future-frame tokens incurs substantial inference latency. We propose CF-Prune, a training-free framework for pruning future-frame tokens in pretrained WAMs. Our key insight is that future visual predictions support action generation and therefore need not preserve every visual detail required for high-fidelity video synthesis. CF-Prune combines instruction and action attention to identify task-relevant tokens during the initial denoising forward pass, even when future-frame and action representations remain highly noisy. An entropy-based phase identification mechanism further retains dense computation during precision phases to mitigate pruning-induced performance degradation. Experiments on RoboLab, RoboCasa, and real-world manipulation tasks demonstrate consistent inference speedups. At a 35% pruning ratio, CF-Prune achieves average speedups of 1.19-1.27x while improving task success rates. At a 50% pruning ratio, it achieves 1.29-1.33x average speedups on both simulation benchmarks, with overall success rates within 1.0 percentage point of the baseline.",
+      "authors": [
+        "Baekseung Kim",
+        "Junhoo Lee",
+        "Sohyeon Hong",
+        "Suhyun Jeon",
+        "Minkyu Kim",
+        "Seungyeon Kim",
+        "Donghoon Han",
+        "Nojun Kwak"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-14T10:39:16Z",
+      "updated": "2026-10-14T10:39:16Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "world action model"
+      ],
+      "track": "wam",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM",
+        "BENCHMARK",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2610.19753",
+      "title": "Coordi-pi: Coordination-Aware Dual-Hand Action Representation for Bimanual Dexterous Manipulation",
+      "abstract": "Vision-language-action (VLA) models have shown strong potential for general-purpose robotic manipulation, but extending them to bimanual dexterous manipulation introduces a high-dimensional and structured action space. Existing bimanual VLA policies commonly concatenate right- and left-side arm--hand actions at each control timestep, leaving cross-hand interactions implicit within a single action vector. We introduce Coordi-$π$, a structured action representation for bimanual dexterous manipulation. Coordi-$π$ represents the right- and left-side arm--hand actions as individual action tokens and organizes them into an interleaved sequence, explicitly exposing the two sides within the action sequence. To explicitly encode hand identity and temporal synchronization in this interleaved representation, a learnable hand-identity embedding distinguishes the two sides, while sequence--control-timestep factorized rotary positional encoding (RoPE) separates sequence position from control timestep, allowing actions at the same control timestep to share a temporal coordinate while retaining distinct sequence positions. Across all five bimanual dexterous manipulation tasks in DexJoCo, Coordi-$π$ achieves state-of-the-art performance under both \\textit{rand-obj} and \\textit{rand-full}, improving the average success rate over $π_{0.5}$ from 31.9\\% to 51.3\\% and from 18.3\\% to 32.3\\%, respectively. Coordi-$π$ also consistently outperforms $π_{0.5}$ across four real-world bimanual dexterous manipulation tasks.",
+      "authors": [
+        "Yiming Meng",
+        "Yanming Shao",
+        "Weijie Shen",
+        "Kunyang Lin",
+        "Jiayu Sun",
+        "Ping Luo",
+        "Yao Mu"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-14T08:08:45Z",
+      "updated": "2026-10-14T08:08:45Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    }
+  ],
+  "rejected": {
+    "1805.07914": "outside lookback window",
+    "1806.09655": "outside lookback window",
+    "2209.05451": "outside lookback window",
+    "2212.06817": "outside lookback window",
+    "2303.04137": "outside lookback window",
+    "2304.13705": "outside lookback window",
+    "2306.10007": "outside lookback window",
+    "2310.08576": "outside lookback window",
+    "2312.10812": "outside lookback window",
+    "2402.15391": "outside lookback window",
+    "2403.03954": "outside lookback window",
+    "2403.08321": "outside lookback window",
+    "2405.12213": "outside lookback window",
+    "2407.05996": "outside lookback window",
+    "2409.20537": "outside lookback window",
+    "2410.07864": "outside lookback window",
+    "2410.11758": "outside lookback window",
+    "2410.18647": "outside lookback window",
+    "2412.04445": "outside lookback window",
+    "2502.00379": "outside lookback window",
+    "2503.02881": "outside lookback window",
+    "2503.14734": "outside lookback window",
+    "2503.18938": "outside lookback window",
+    "2505.17006": "outside lookback window",
+    "2506.23944": "outside lookback window",
+    "2507.05331": "outside lookback window",
+    "2507.12440": "outside lookback window",
+    "2507.13340": "outside lookback window",
+    "2509.18644": "outside lookback window",
+    "2510.02268": "outside lookback window",
+    "2510.26433": "outside lookback window",
+    "2512.13030": "outside lookback window",
+    "2512.22414": "outside lookback window",
+    "2601.05230": "outside lookback window",
+    "2601.18692": "outside lookback window",
+    "2601.22153": "outside lookback window",
+    "2602.06949": "outside lookback window",
+    "2602.10556": "outside lookback window",
+    "2602.11236": "outside lookback window",
+    "2602.12062": "outside lookback window",
+    "2602.12063": "outside lookback window",
+    "2602.12281": "outside lookback window",
+    "2602.13710": "outside lookback window",
+    "2602.15922": "outside lookback window",
+    "2602.16710": "outside lookback window",
+    "2602.18224": "outside lookback window",
+    "2603.01549": "outside lookback window",
+    "2603.05815": "outside lookback window",
+    "2603.16666": "outside lookback window",
+    "2603.17240": "outside lookback window",
+    "2603.19312": "outside lookback window",
+    "2603.22078": "outside lookback window",
+    "2603.22760": "outside lookback window",
+    "2603.29844": "outside lookback window",
+    "2604.01985": "outside lookback window",
+    "2604.05014": "outside lookback window",
+    "2604.06168": "outside lookback window",
+    "2604.11757": "outside lookback window",
+    "2604.15483": "outside lookback window",
+    "2604.16391": "outside lookback window",
+    "2604.20834": "outside lookback window",
+    "2604.28192": "outside lookback window",
+    "2605.02881": "outside lookback window",
+    "2605.03269": "outside lookback window",
+    "2605.04678": "outside lookback window",
+    "2605.11817": "outside lookback window",
+    "2605.15725": "outside lookback window",
+    "2605.19282": "outside lookback window",
+    "2605.20752": "outside lookback window",
+    "2605.24934": "outside lookback window",
+    "2605.30280": "outside lookback window",
+    "2606.01027": "outside lookback window",
+    "2606.02800": "outside lookback window",
+    "2606.05254": "outside lookback window",
+    "2606.06904": "outside lookback window",
+    "2606.07100": "outside lookback window",
+    "2606.11187": "outside lookback window",
+    "2606.15768": "outside lookback window",
+    "2606.16533": "outside lookback window",
+    "2606.17046": "outside lookback window",
+    "2606.17846": "outside lookback window",
+    "2606.17906": "outside lookback window",
+    "2606.19531": "outside lookback window",
+    "2606.20521": "outside lookback window",
+    "2606.20562": "outside lookback window",
+    "2606.20867": "outside lookback window",
+    "2606.32026": "outside lookback window",
+    "2607.08127": "outside lookback window",
+    "2608.04404": "outside lookback window",
+    "2608.05706": "outside lookback window",
+    "2609.03715": "outside lookback window",
+    "2609.35445": "relevance score 0 below threshold"
+  }
+}

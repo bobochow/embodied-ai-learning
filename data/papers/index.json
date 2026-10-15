@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2609.27455": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "title": "LeWAM: Latent evolving World Action Model"
+    },
+    "2610.18038": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Data-Free Continual Learning for World Action Model with Rectified Generative Replay"
+    },
+    "2610.19604": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ForceBench: Benchmarking Force Integration for Robotic Manipulation"
+    },
+    "2610.18873": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "LoopWAM: Closed-Loop Generalist Policy Improvement from Deployment Rollouts"
+    },
+    "2610.18855": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Interaction Latents as Actions for Contact-Rich Manipulation"
+    },
+    "2610.20351": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand"
+    },
+    "2610.20223": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction"
+    },
+    "2610.20064": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "FoveaVLA: Foveation Actions Replace the Wrist Camera in VLAs"
+    },
+    "2606.01458": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World"
+    },
+    "2606.08278": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation"
+    },
+    "2603.14371": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "OxyGen: Unified KV Cache Management for VLA Inference under Multi-Task Parallelism"
+    },
+    "2610.20442": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness"
+    },
+    "2610.20157": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models"
+    },
+    "2610.19957": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Complementary Future Token Pruning for World Action Models"
+    },
+    "2610.19753": {
+      "first_seen": "2026-10-16",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Coordi-pi: Coordination-Aware Dual-Hand Action Representation for Bimanual Dexterous Manipulation"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-10-15T19:58:58.852473+00:00"
 }
