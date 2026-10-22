@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2606.05737": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models"
+    },
+    "2610.28880": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration"
+    },
+    "2610.26813": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models"
+    },
+    "2610.30097": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation"
+    },
+    "2610.30044": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation"
+    },
+    "2610.28431": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Plausible Future, Wrong Choice: Steering World-Action Models toward Intended Future"
+    },
+    "2610.28122": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "De-Diffusing WAMs: Action-Sufficient Direct Prediction for Robot Control"
+    },
+    "2610.18697": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models"
+    },
+    "2610.23288": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "CoEvolve: Self-Evolving Code Policies from Skills to Strategies for Humanoid Robots"
+    },
+    "2610.26564": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "PrismWAM: Decoupling State Representations in World Action Models"
+    },
+    "2610.20064": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "FoveaVLA: Foveation Actions Replace the Wrist Camera in VLAs"
+    },
+    "2606.20698": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "SafeDojo: Safe Reinforcement Learning for VLA via Interactive World Model"
+    },
+    "2610.29329": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control"
+    },
+    "2609.19104": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference"
+    },
+    "2610.25961": {
+      "first_seen": "2026-10-23",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "PaceVLA: Adaptive Temporal Action Quantization in Vision-Language-Action Models"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-10-22T20:14:36.440121+00:00"
 }
