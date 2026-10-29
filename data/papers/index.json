@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2606.15768": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies"
+    },
+    "2610.37215": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution"
+    },
+    "2602.18020": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "AWARE: Action-Entropy-Weighted and Attention-Guided Retrieval of Observation Evidence for Vision-Language-Action Models"
+    },
+    "2610.37666": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning"
+    },
+    "2610.37518": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer"
+    },
+    "2610.37219": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Vision-Language-Action or World-Action? Just Action Models"
+    },
+    "2512.23864": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation"
+    },
+    "2604.11674": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation"
+    },
+    "2610.37330": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer"
+    },
+    "2610.25459": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks"
+    },
+    "2610.34674": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Benchmarking Obstacle-Conditioned Safety in Household Robot Navigation"
+    },
+    "2610.34519": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning"
+    },
+    "2610.37378": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning"
+    },
+    "2605.09410": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models"
+    },
+    "2610.35832": {
+      "first_seen": "2026-10-30",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-10-29T21:20:05.829063+00:00"
 }
