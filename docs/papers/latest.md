@@ -8,14 +8,14 @@ pageClass: paper-radar-page
 
 <header class="paper-brief">
   <div class="paper-brief__lead">
-    <div class="paper-brief__meta"><span>DAILY BRIEF</span><time datetime="2026-09-10">2026.09.10</time></div>
+    <div class="paper-brief__meta"><span>DAILY BRIEF</span><time datetime="2026-11-06">2026.11.06</time></div>
     <h1>每日论文雷达</h1>
-    <p class="paper-brief__dek">今日自动筛出 15 篇强相关候选，来自每日 arXiv 检索与人工策展 VLA/WAM 清单，等待编辑复核。</p>
+    <p class="paper-brief__dek">今日自动筛出 2 篇强相关候选，来自每日 arXiv 检索与人工策展 VLA/WAM 清单，等待编辑复核。</p>
     <dl class="paper-brief__stats" aria-label="论文队列统计">
-      <div><dt>候选</dt><dd data-paper-stat="latest">15</dd></div>
-      <div><dt>P0</dt><dd data-paper-stat="p0">14</dd></div>
+      <div><dt>候选</dt><dd data-paper-stat="latest">2</dd></div>
+      <div><dt>P0</dt><dd data-paper-stat="p0">0</dd></div>
       <div><dt>已细读</dt><dd data-paper-stat="done">0</dd></div>
-      <div><dt>更新</dt><dd data-paper-stat="date">09.10</dd></div>
+      <div><dt>更新</dt><dd data-paper-stat="date">11.06</dd></div>
     </dl>
     <nav class="paper-brief__links" aria-label="相关研究入口">
       <a href="/embodied-ai-learning/autoresearch/">论文 Ideas</a>
@@ -44,7 +44,7 @@ pageClass: paper-radar-page
     </label>
     <div class="paper-filter-panel__head">
       <span>RESEARCH INBOX</span>
-      <output data-paper-filter-count aria-live="polite">显示 509 篇</output>
+      <output data-paper-filter-count aria-live="polite">显示 511 篇</output>
     </div>
     <button type="button" class="paper-filter-clear" data-paper-filter-clear hidden>清除筛选</button>
   </div>
@@ -68,6 +68,16 @@ pageClass: paper-radar-page
       <button type="button" class="paper-filter-chip" data-paper-filter-group="status" data-paper-filter="done">已细读</button>
       <button type="button" class="paper-filter-chip" data-paper-filter-group="status" data-paper-filter="watch">观察</button>
     </div>
+  </div>
+</div>
+
+<h2 id="papers-2026-11-06" class="paper-day-heading">2026-11-06</h2>
+
+<div class="daily-paper-section">
+  <p class="paper-day-note"><strong>自动候选 · 待人工复核</strong>优先检查 PDRVLA × Not All Features Are Created Equal。候选来自 DailyArxiv 与 awesome-vla-wam，并以 arXiv 元数据重新核验。</p>
+  <div class="paper-queue-grid">
+    <article class="paper-ticket paper-ticket--vla paper-ticket--featured"><div class="paper-ticket__meta"><span class="paper-editor-pick">EDITOR PICK</span><span>VLA</span><span>HUMAN-TO-ROBOT</span><span>BENCHMARK</span><span>P1</span><span class="paper-status paper-status--todo">待细读</span></div><h3><a href="https://arxiv.org/abs/2610.37381" target="_blank" rel="noreferrer">PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations</a></h3><p>自动候选，待中文细读：Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--language...</p><div class="paper-ticket__links"><a href="https://arxiv.org/abs/2610.37381" target="_blank" rel="noreferrer">arXiv</a></div></article>
+    <article class="paper-ticket paper-ticket--vla"><div class="paper-ticket__meta"><span>VLA</span><span>BENCHMARK</span><span>P1</span><span class="paper-status paper-status--todo">待细读</span></div><h3><a href="https://arxiv.org/abs/2603.19233" target="_blank" rel="noreferrer">Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models</a></h3><p>自动候选，待中文细读：A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as it saw during fine-tuning. However, if the basket is shifted five centimeters to the left, it drops the soup off the table. We developed an interpretability pipeline to investigate what such a policy is computing. Injecting task A&#x27;s activations into the action expert while the policy looks at task...</p><div class="paper-ticket__links"><a href="https://arxiv.org/abs/2603.19233" target="_blank" rel="noreferrer">arXiv</a></div></article>
   </div>
 </div>
 
