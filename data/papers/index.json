@@ -3083,7 +3083,21 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2610.37381": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations"
+    },
+    "2603.19233": {
+      "first_seen": "2026-11-06",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-11-05T22:11:52.402471+00:00"
 }
