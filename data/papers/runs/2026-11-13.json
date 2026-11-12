@@ -1,0 +1,234 @@
+{
+  "run_date": "2026-11-13",
+  "cutoff_date": "2026-11-06",
+  "llm_enriched": false,
+  "provenance": {
+    "daily_arxiv": {
+      "repository": "Ed1sonChen/DailyArxiv",
+      "readme_url": "https://raw.githubusercontent.com/Ed1sonChen/DailyArxiv/main/README.md",
+      "readme_sha256": "a50972b91cd6a12c007ad039468fad53ba5261e4c6f54a6887b83751e298db7d",
+      "sections": {
+        "Vision Language Action": 30,
+        "world action model": 0
+      }
+    },
+    "awesome_vla_wam": {
+      "repository": "DravenALG/awesome-vla-wam",
+      "readme_url": "https://raw.githubusercontent.com/DravenALG/awesome-vla-wam/main/README.md",
+      "readme_sha256": "533d6a678ba3c49e968aa30a54ac29ac8246922963d7432d3bdf1f2c7ac86a66",
+      "sections": {
+        "VLA Models": 30,
+        "World Action Models": 30,
+        "Policies": 24,
+        "Latent Action Models": 22,
+        "Human Action Pretraining": 7,
+        "Code as Policy": 0
+      }
+    }
+  },
+  "candidate_count": 128,
+  "eligible_count": 1,
+  "selected_count": 1,
+  "selection_trace": {
+    "vla": {
+      "top_10": [],
+      "top_3": [],
+      "top_1": []
+    },
+    "wam": {
+      "top_10": [
+        "2606.11187"
+      ],
+      "top_3": [
+        "2606.11187"
+      ],
+      "top_1": [
+        "2606.11187"
+      ]
+    },
+    "data": {
+      "top_10": [],
+      "top_3": [],
+      "top_1": []
+    },
+    "humanoid": {
+      "top_10": [],
+      "top_3": [],
+      "top_1": []
+    },
+    "tactile": {
+      "top_10": [],
+      "top_3": [],
+      "top_1": []
+    }
+  },
+  "selected": [
+    {
+      "arxiv_id": "2606.11187",
+      "title": "Next Forcing: World Action Modeling with Multi-Chunk Prediction",
+      "abstract": "Autoregressive video generation has emerged as a powerful paradigm for World Action Models (WAMs). However, existing approaches suffer from slow training convergence and limited converged accuracy, particularly at high frame rates, as the training supervision is confined to the current chunk without explicit signals about future dynamics; they also suffer from slow inference due to iterative video denoising. In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for world action modeling that enables faster training, higher accuracy, and accelerated inference. Inspired by multi-token prediction in large language models, Next Forcing introduces an MCP training objective that augments the main model with lightweight auxiliary MCP modules to simultaneously denoise video chunks at multiple future temporal horizons (next$^1$, next$^2$, next$^3$ chunks). These MCP modules form a causal chain across prediction depths, where intermediate features fused from multiple layers of the main model are leveraged to predict future dynamics, allowing near-future predictions to inform farther-future ones and providing dense multi-scale temporal supervision back to the main model. During training, the MCP modules significantly accelerate convergence and improve converged accuracy, especially at high frame rates: at 50 fps, Next Forcing achieves a 93.1% relative improvement over LingBot-VA at 5k training steps and 2.3$\\times$ faster convergence, and establishes new state-of-the-art results on the RoboTwin benchmark (94.1/93.5% on Clean/Random). At inference, the MCP modules can be retained to predict the next video chunk in parallel with the current one, achieving 2$\\times$ inference acceleration. Beyond World Action Models, Next Forcing also improves physical-law adherence on PhyWorld and reduces FVD by over 50\\% in action-free general video pretraining.",
+      "authors": [
+        "Gangwei Xu",
+        "Qihang Zhang",
+        "Jiaming Zhou",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Xin Yang",
+        "Yinghao Xu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-06-09T17:59:22Z",
+      "updated": "2026-11-08T09:13:46Z",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "source_sections": [
+        "World Action Models"
+      ],
+      "track": "wam",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "curated awesome-vla-wam source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "WAM",
+        "BENCHMARK"
+      ]
+    }
+  ],
+  "rejected": {
+    "1011.0686": "outside lookback window",
+    "1605.06450": "outside lookback window",
+    "1805.07914": "outside lookback window",
+    "1806.09655": "outside lookback window",
+    "2104.00053": "outside lookback window",
+    "2109.08273": "outside lookback window",
+    "2209.05451": "outside lookback window",
+    "2212.06817": "outside lookback window",
+    "2303.04137": "outside lookback window",
+    "2304.13705": "outside lookback window",
+    "2306.10007": "outside lookback window",
+    "2310.08576": "outside lookback window",
+    "2312.10812": "outside lookback window",
+    "2402.15391": "outside lookback window",
+    "2403.03954": "outside lookback window",
+    "2403.08321": "outside lookback window",
+    "2405.12213": "outside lookback window",
+    "2407.05996": "outside lookback window",
+    "2409.20537": "outside lookback window",
+    "2410.07864": "outside lookback window",
+    "2410.11758": "outside lookback window",
+    "2410.18647": "outside lookback window",
+    "2412.04445": "outside lookback window",
+    "2502.00379": "outside lookback window",
+    "2503.02881": "outside lookback window",
+    "2503.14734": "outside lookback window",
+    "2503.18938": "outside lookback window",
+    "2505.17006": "outside lookback window",
+    "2506.23944": "outside lookback window",
+    "2507.05331": "outside lookback window",
+    "2507.12440": "outside lookback window",
+    "2507.13340": "outside lookback window",
+    "2509.13769": "outside lookback window",
+    "2509.18644": "outside lookback window",
+    "2510.02268": "outside lookback window",
+    "2510.26433": "outside lookback window",
+    "2512.13030": "outside lookback window",
+    "2512.22414": "outside lookback window",
+    "2512.23864": "outside lookback window",
+    "2601.05230": "outside lookback window",
+    "2601.18692": "outside lookback window",
+    "2601.22153": "outside lookback window",
+    "2602.06949": "outside lookback window",
+    "2602.10556": "outside lookback window",
+    "2602.11236": "outside lookback window",
+    "2602.12062": "outside lookback window",
+    "2602.12063": "outside lookback window",
+    "2602.12281": "outside lookback window",
+    "2602.13444": "outside lookback window",
+    "2602.13710": "outside lookback window",
+    "2602.16710": "outside lookback window",
+    "2602.18020": "outside lookback window",
+    "2602.18224": "outside lookback window",
+    "2602.23408": "outside lookback window",
+    "2603.01549": "outside lookback window",
+    "2603.05815": "outside lookback window",
+    "2603.16666": "outside lookback window",
+    "2603.17240": "outside lookback window",
+    "2603.19233": "outside lookback window",
+    "2603.19312": "outside lookback window",
+    "2603.22078": "outside lookback window",
+    "2603.22760": "outside lookback window",
+    "2603.25903": "outside lookback window",
+    "2603.29844": "outside lookback window",
+    "2604.01985": "outside lookback window",
+    "2604.05014": "outside lookback window",
+    "2604.06168": "outside lookback window",
+    "2604.11674": "outside lookback window",
+    "2604.11757": "outside lookback window",
+    "2604.15483": "outside lookback window",
+    "2604.16391": "outside lookback window",
+    "2604.20834": "outside lookback window",
+    "2604.28192": "outside lookback window",
+    "2605.00078": "outside lookback window",
+    "2605.02881": "outside lookback window",
+    "2605.03269": "outside lookback window",
+    "2605.04678": "outside lookback window",
+    "2605.09410": "outside lookback window",
+    "2605.11817": "outside lookback window",
+    "2605.15195": "outside lookback window",
+    "2605.15725": "outside lookback window",
+    "2605.19282": "outside lookback window",
+    "2605.20752": "outside lookback window",
+    "2605.24934": "outside lookback window",
+    "2605.30280": "outside lookback window",
+    "2606.01027": "outside lookback window",
+    "2606.02800": "outside lookback window",
+    "2606.05254": "outside lookback window",
+    "2606.06904": "outside lookback window",
+    "2606.07100": "outside lookback window",
+    "2606.15768": "outside lookback window",
+    "2606.16533": "outside lookback window",
+    "2606.17046": "outside lookback window",
+    "2606.17846": "outside lookback window",
+    "2606.17906": "outside lookback window",
+    "2606.19531": "outside lookback window",
+    "2606.20521": "outside lookback window",
+    "2606.20562": "outside lookback window",
+    "2606.20867": "outside lookback window",
+    "2606.32026": "outside lookback window",
+    "2607.08127": "outside lookback window",
+    "2608.04404": "outside lookback window",
+    "2608.05706": "outside lookback window",
+    "2609.03715": "outside lookback window",
+    "2609.27455": "outside lookback window",
+    "2610.19746": "outside lookback window",
+    "2610.25459": "outside lookback window",
+    "2610.26717": "outside lookback window",
+    "2610.28166": "outside lookback window",
+    "2610.34519": "outside lookback window",
+    "2610.34649": "outside lookback window",
+    "2610.34674": "outside lookback window",
+    "2610.34717": "outside lookback window",
+    "2610.34837": "outside lookback window",
+    "2610.35010": "outside lookback window",
+    "2610.35626": "outside lookback window",
+    "2610.35832": "outside lookback window",
+    "2610.36285": "outside lookback window",
+    "2610.36761": "outside lookback window",
+    "2610.36765": "outside lookback window",
+    "2610.37215": "outside lookback window",
+    "2610.37219": "outside lookback window",
+    "2610.37330": "outside lookback window",
+    "2610.37378": "outside lookback window",
+    "2610.37381": "outside lookback window",
+    "2610.37518": "outside lookback window",
+    "2610.37666": "outside lookback window"
+  }
+}

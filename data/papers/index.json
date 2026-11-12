@@ -3083,7 +3083,14 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2606.11187": {
+      "first_seen": "2026-11-13",
+      "sources": [
+        "awesome_vla_wam"
+      ],
+      "title": "Next Forcing: World Action Modeling with Multi-Chunk Prediction"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-11-12T22:24:05.100371+00:00"
 }
