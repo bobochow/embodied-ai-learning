@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2611.24360": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models"
+    },
+    "2611.24940": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling"
+    },
+    "2611.09892": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "On Agentic Manipulation Policies"
+    },
+    "2606.20118": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Pose6DAug: Physically Plausible Multi-view Object Swapping for Robot Data Augmentation"
+    },
+    "2611.23961": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "3DTouch: A Tactile-aware VLA Model with 3D Geometric Relations for Dexterous Manipulation"
+    },
+    "2611.23926": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation"
+    },
+    "2610.34593": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Future Prediction as Training-Only Video Supervision for Pretrained VLA Policies"
+    },
+    "2610.40349": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "TouchBridge: Tactile-Conditioned Human-to-Robot Transfer for Dexterous Manipulation"
+    },
+    "2611.23963": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "CoRA-VTLA: Contact-Guided Attention and Queryable Response Memory for Tactile Post-Training"
+    },
+    "2611.23843": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models"
+    },
+    "2611.23714": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models"
+    },
+    "2611.23499": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "BiCAT: Bimanual Coordination Action Tokenization"
+    },
+    "2611.24864": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "NereidVLA: Learning to Understand and Navigate the Underwater World"
+    },
+    "2611.24816": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction"
+    },
+    "2611.24585": {
+      "first_seen": "2026-11-20",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-11-19T23:09:46.374792+00:00"
 }
