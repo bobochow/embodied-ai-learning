@@ -1,0 +1,824 @@
+{
+  "run_date": "2026-11-27",
+  "cutoff_date": "2026-11-20",
+  "llm_enriched": false,
+  "provenance": {
+    "daily_arxiv": {
+      "repository": "Ed1sonChen/DailyArxiv",
+      "readme_url": "https://raw.githubusercontent.com/Ed1sonChen/DailyArxiv/main/README.md",
+      "readme_sha256": "7a40af51f611fb17ba5799d153b24159d6285b2decffb2212b6d5061ba11629a",
+      "sections": {
+        "Vision Language Action": 30,
+        "world action model": 0
+      }
+    },
+    "awesome_vla_wam": {
+      "repository": "DravenALG/awesome-vla-wam",
+      "readme_url": "https://raw.githubusercontent.com/DravenALG/awesome-vla-wam/main/README.md",
+      "readme_sha256": "533d6a678ba3c49e968aa30a54ac29ac8246922963d7432d3bdf1f2c7ac86a66",
+      "sections": {
+        "VLA Models": 30,
+        "World Action Models": 30,
+        "Policies": 24,
+        "Latent Action Models": 22,
+        "Human Action Pretraining": 7,
+        "Code as Policy": 0
+      }
+    }
+  },
+  "candidate_count": 128,
+  "eligible_count": 29,
+  "selected_count": 15,
+  "selection_trace": {
+    "vla": {
+      "top_10": [
+        "2611.34560",
+        "2611.34914",
+        "2610.29560",
+        "2611.34675",
+        "2610.18790",
+        "2605.10925",
+        "2611.34287",
+        "2611.34257",
+        "2611.33880",
+        "2611.34778"
+      ],
+      "top_3": [
+        "2611.34560",
+        "2611.34914",
+        "2610.29560"
+      ],
+      "top_1": [
+        "2611.34560"
+      ]
+    },
+    "wam": {
+      "top_10": [
+        "2611.34360"
+      ],
+      "top_3": [
+        "2611.34360"
+      ],
+      "top_1": [
+        "2611.34360"
+      ]
+    },
+    "data": {
+      "top_10": [
+        "2611.34538"
+      ],
+      "top_3": [
+        "2611.34538"
+      ],
+      "top_1": [
+        "2611.34538"
+      ]
+    },
+    "humanoid": {
+      "top_10": [
+        "2611.34449",
+        "2611.32665"
+      ],
+      "top_3": [
+        "2611.34449",
+        "2611.32665"
+      ],
+      "top_1": [
+        "2611.34449"
+      ]
+    },
+    "tactile": {
+      "top_10": [
+        "2611.26405",
+        "2602.23648"
+      ],
+      "top_3": [
+        "2611.26405",
+        "2602.23648"
+      ],
+      "top_1": [
+        "2611.26405"
+      ]
+    }
+  },
+  "selected": [
+    {
+      "arxiv_id": "2611.34560",
+      "title": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation",
+      "abstract": "Effective robotic manipulation calls for multimodal memory and rapid adaptation to shifts in contact dynamics. However, many existing policies, which retain either visual or wrench history, may miss key cues from the other modality. Moreover, even with wrench memory, fixed policies can struggle when contact conditions shift at deployment. To this end, we introduce M$^{2}$AdaptVLA, a vision-language-action model that integrates visual and wrench memories with predictive test-time adaptation. For visual memory, the model uses test-time training (TTT) to encode observation history in fast weights. Each entry in the bounded TTT bank combines the corresponding frame's features with a readout from these weights, preserving cues that predate the oldest retained frame. For wrench memory, a context gate controls how much the action expert draws on wrench history as it jointly denoises future actions and wrenches. For predictive test-time adaptation, the auxiliary wrench prediction loss also provides online self-supervision. Using measured wrenches as targets, we update low-rank policy adapters by backpropagating only through the final denoising step. Real-world experiments show that the TTT bank outperforms visual memory baselines on progress tracking, scene recall, and demonstration following. On contact-sensitive tasks, the context gate yields higher success rates than direct injection or gated cross-attention. Predictive test-time adaptation improves robustness to shifts in contact dynamics. On eight tasks requiring visual and wrench memory, M$^{2}$AdaptVLA achieves a mean success rate of 82.71%, a 31.46% absolute gain over the strongest baseline. The project page is available at https://tlf-tlf.github.io/M2AdaptVLAPage/.",
+      "authors": [
+        "Liufan Tan",
+        "Tong Wang",
+        "Yuehao Yin",
+        "Jian Chen",
+        "Yihang Yin",
+        "Ying Qu",
+        "Wenyu Li",
+        "Ruyi Gan",
+        "Hao Wang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-11-25T15:32:21Z",
+      "updated": "2026-11-25T15:32:21Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 11,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34914",
+      "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
+      "abstract": "Vision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions. Fine-tuning on new layouts needs robot data for each one and erodes skills the model already has. We introduce Cairn, which keeps the VLA frozen and steers it at test time along learned 3D trajectories of the object in its gripper. A small prior reads point clouds of the scene and the held object, along with its pose when grasped and the instruction, and samples SE(3) trajectories up to its release that lead it around obstacles and turn it to fit through gaps. The prior and the VLA form the two levels of a hierarchical planner in which feedback runs both ways: the VLA's intended motion chooses and reshapes the trajectories, and the chosen one guides the VLA's denoising. Its predicted actions, mapped to the held object's poses through the grasp, are pulled toward the next waypoint, while the VLA's weights stay untouched. Across 1,941 held-out LIBERO scenes with displaced objects and obstacles, Cairn raises the success rate of a frozen π0.5 from 24.5% to 95.1%, above that of a π0.5 fine-tuned on our training layouts, without hurting standard LIBERO. On the third-party LIBERO-PRO benchmark, it raises success from 27.3% to 38.0%, and from 54.4% to 81.1% on the episodes it steers. On a real Franka, with a prior trained purely in simulation, it guides the frozen DROID π0.5 around an obstacle and to a placement at the limit of the arm's reach, where it otherwise fails. All code, models and data will be made public.",
+      "authors": [
+        "Agelos Kratimenos",
+        "Kostas Daniilidis",
+        "Evangelos Chatzipantazis"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-11-25T18:57:29Z",
+      "updated": "2026-11-25T18:57:29Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2610.29560",
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "abstract": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task progress and past interaction outcomes, while partial observability and execution errors compound over time. Existing work has begun to address these challenges by augmenting foundation-model policies with memory and by introducing hierarchical architectures that separate high-level planning from low-level execution. We organize the high-level VLM as a robotic agent through an editable harness to maintain task context and improve planning through execution experience. We instantiate this approach as SERA (Self-Evolving Robotic Agent), with a fixed VLA executor providing low-level control. The harness maintains and updates task context using observations and execution feedback to guide subsequent planning. In simulation, self-evolution uses environment rollouts to propose and evaluate harness revisions, with the selected configuration fixed before held-out testing. On RoboMME, SERA achieves 51.38% overall success with autonomous selection, compared with 44.38% without self-evolution. We also evaluate history-dependent real robot tasks with human-reviewed harness corrections. Our exploration suggests that agentic planning is a promising direction for history-dependent robotic manipulation.",
+      "authors": [
+        "Tingwen Du",
+        "Haoyu Guo",
+        "Hanxue Zhang",
+        "Xuanxu Wang",
+        "Junting Dong",
+        "Chao Gao",
+        "Mingfei Han",
+        "Tao Lu",
+        "Mulin Yu",
+        "Chunhua Shen",
+        "Xiaojun Chang",
+        "Zhihui Li"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-21T10:49:49Z",
+      "updated": "2026-11-25T17:14:40Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34538",
+      "title": "Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic Manipulation",
+      "abstract": "Vision-language-action (VLA) policies perform well on fixed-instruction robotic manipulation benchmarks, but their ability to adapt to instruction changes during execution remains understudied. We introduce the Dynamic Task Update Benchmark (DTU-Bench), evaluating 40 task revisions across seven update types and three execution stages using LIBERO, a simulated robotic manipulation benchmark. We compare performance when a new instruction is given before execution starts versus during execution, and examine whether the new task instructions are followed. Across 13 representative VLA configurations, average task success is 95.8% on the original object-manipulation tasks, compared with only 1.6% when the instruction changes which object to manipulate during execution. Controlled diagnostics show that policies often complete the original task before the updated one, and that their responses depend on the robot's physical state. We further test whether a simple scripted controller that releases the grasped object and moves the arm back helps robots respond to instruction changes. This improves success from 2% to 38% for π0.5 and from 8% to 48% for DM0.5, but can cause unwanted object motion. These findings reveal limitations that fixed-instruction benchmarks and task-success metrics alone can overlook in evaluating robotic manipulation. Project page: https://dtu-bench.github.io/",
+      "authors": [
+        "Yanran Jiang",
+        "Cécile Paris",
+        "Dana Kulić",
+        "Leimin Tian"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-11-25T15:20:36Z",
+      "updated": "2026-11-25T15:20:36Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "data",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "resource link in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34449",
+      "title": "HoloBrain-0.5 Technical Report",
+      "abstract": "We present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across robot embodiments. The policies plan in a shared action space using robot state, kinematic structure, and calibrated camera observations. We standardize joint axes, coordinate frames, and tool-center points in robot descriptions (URDFs) and encode their kinematic graphs in a shared 3D representation. HoloBrain-0.5-Continuous generates action chunks by diffusion, while HoloBrain-0.5-Discrete uses residual finite scalar quantization (FSQ) and delayed autoregression. We pretrain both policies on over 10,000 hours of real-robot, simulation, and human-manipulation data spanning 15 embodiment categories. Across six closed-loop simulation settings, the discrete policy converges faster and reaches a higher mean success rate than the continuous policy (56.77% vs. 49.71%). On seven real-robot tasks, it achieves a mean progress score of 87.76% without task-specific post-training. After post-training, the continuous policy outperforms $π_{0.5}$ on the seven-task benchmark (94.52% vs. 86.25%) and an 11-task dual-arm benchmark (79.07% vs. 69.41%). The discrete-initialized continuous policy transfers five tasks zero-shot from Piper to Piper-X, scoring 63.28% on average. With target-robot demonstrations, the continuous policy scores 89.2% on Franka Panda and 92.94% on a mobile dual-arm platform. Although pretraining includes no Unitree G1 data, post-training with limited G1 demonstrations yields a mean progress score of 70.24% across three humanoid tasks, compared with 11.00% for $π_{0.5}$.",
+      "authors": [
+        "Xuewu Lin",
+        "Jiahao Wang",
+        "Jiawei Li",
+        "Mengdi Li",
+        "Zhengmao Sun",
+        "Yiwei Jin",
+        "Hongyu Xie",
+        "Zhengyang Feng",
+        "Kun Wu",
+        "Zihao Chen",
+        "Lianzhou Zhang",
+        "Lichao Huang",
+        "Zhizhong Su"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-11-25T14:28:05Z",
+      "updated": "2026-11-25T14:28:05Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "humanoid",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "HUMANOID",
+        "BENCHMARK"
+      ]
+    },
+    {
+      "arxiv_id": "2611.26405",
+      "title": "TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action",
+      "abstract": "Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive visually subtle contact events in contact-rich manipulation. However, adding tactile input yields inconsistent gains, and some visuo-tactile VLA models rely little on tactile input, because much of the tactile change, such as the gel deformation during gripper closure, is predictable from visual observations and executed actions. To address this problem, we introduce TacInno, which isolates the contact dynamics that vision and executed actions cannot explain, termed tactile innovation, and uses tactile innovation only as a training target. Specifically, the TacInno tokenizer, conditioned on visual observations and executed actions, compresses the future tactile change into a discrete code, and the policy, TacInno-VLA, learns to predict the code, adding no module for the code at deployment. TacInno-VLA achieves average success rates of 87.5% across six simulation tasks and 70.5% across four real-world tasks, outperforming the strongest visuo-tactile baseline by 10.7 and 9.0 percentage points, respectively. Ablation studies validate the contributions of visual and action conditioning, multi-frame encoding, and auxiliary code prediction. Together, these results demonstrate the effectiveness of tactile innovation as a supervision signal for contact-rich manipulation.",
+      "authors": [
+        "Weile Li",
+        "Yunfan Lou",
+        "Muqing Shi",
+        "Zihao Zhang",
+        "Zhenbiao Huang",
+        "Boxian Yao",
+        "Xiyu Zhu",
+        "Zhibo Pang"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "published": "2026-11-19T16:53:19Z",
+      "updated": "2026-11-25T12:35:13Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "tactile",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "TACTILE",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2611.32665",
+      "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models",
+      "abstract": "Vision-language-action (VLA) models have achieved strong results in arm-centric manipulation, yet humanoid whole-body control (WBC) requires dynamic balance and tightly coupled full-body coordination. Existing hierarchical humanoid VLAs typically decouple motion generation from physical execution, leaving tracking and balance errors unable to directly optimize the VLA generator. We propose DiffGR00T, an end-to-end differentiable training framework that couples GR00T N1.7 with SONIC, a pretrained whole-body behavior foundation model. To enable execution-aware differentiable training, we replace the non-differentiable simulator with a learned, action-conditioned world model, allowing multi-step body-execution losses to backpropagate through the frozen whole-body controller and the flow-matching sampler directly into the VLA action head. On four HumanoidArena simulation tasks, DiffGR00T improves average task success by 12.5 percentage points over the supervised base VLA (59.2% to 71.7%), demonstrating that execution-aware gradients effectively align high-level motion generation with closed-loop whole-body dynamics.",
+      "authors": [
+        "Sichen Wu",
+        "Qian Sun",
+        "Mengfan Liu",
+        "Weikai Qin",
+        "Bike Zhu",
+        "Hesheng Wang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-11-24T14:15:38Z",
+      "updated": "2026-11-25T16:19:26Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "humanoid",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "HUMANOID"
+      ]
+    },
+    {
+      "arxiv_id": "2602.23648",
+      "title": "FAVLA: A Force-Adaptive Multi-Rate VLA Model for Contact-Rich Robotic Manipulation",
+      "abstract": "Vision-Language-Action (VLA) models have shown strong potential for general robotic manipulation, but contact-rich tasks still require timely action refinement using force/torque feedback. Existing force-aware VLA models usually align all modalities to a single low operating frequency, which discards high-frequency contact cues that are important for reactive action correction. Additionally, they use static fusion, which cannot adaptively balance visual context and force feedback across manipulation processes. To mitigate these issues, we propose FAVLA, a force-adaptive multi-rate VLA model that explicitly separates low-frequency semantic reasoning from high-frequency force-conditioned action refinement. Specifically, FAVLA uses a low-rate VLM to encode visual-language-force context and predict near-future force statistics, while a high-rate action expert refines action chunks using the latest force observations. To decide when to update actions, we introduce a Force-Adaptive Multi-rate Inference (FAMI) mechanism, which schedules the action expert's inference rate from predicted future force variance, keeping low-rate reasoning in stable phases and increasing update frequency near contact transitions. To decide how to use force, we design a Force-Guided Dynamic Fusion (FGDF) module, which injects high-frequency force features into the action expert and dynamically balances visual-semantic and force cues across manipulation stages. Extensive real-robot experiments on high-precision and contact-rich tasks show that FAVLA outperforms force-aware VLA baselines, achieving an average success rate of 88.8% and lower peak contact forces. Zero-shot evaluations further demonstrate FAVLA's robustness to visual distribution shifts. Our project homepage is available at this website.",
+      "authors": [
+        "Yao Li",
+        "Peiyuan Tang",
+        "Wuyang Zhang",
+        "Haojie Ren",
+        "Chengyang Zhu",
+        "Yifan Duan",
+        "Weikai Shi",
+        "Xiaodong Zhang",
+        "Yuming Dong",
+        "Zijiang Yang",
+        "Jianmin Ji",
+        "Yanyong Zhang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-02-27T03:33:10Z",
+      "updated": "2026-11-25T02:31:29Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "tactile",
+      "priority": "P1",
+      "relevance_score": 9,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34360",
+      "title": "One Patch, Many Policies: Object-Associated Physical Patch Attacks on Robotic Manipulation",
+      "abstract": "Vision-Language-Action (VLA) and World Action Models (WAMs) are vulnerable to adversarial visual interference, motivating the study of universal and transferable physical patch attacks. We propose Object-Associated Patch Attack (OAPA), a universal and transferable physical patch framework that enables an attacker to select which task object's manipulation to disrupt through patch placement, without re-optimizing the patch. Our framework combines object-associated placement, differentiable physical compositing, and final action-expert representation divergence. Physical compositing accounts for perspective and occlusion across camera views, while representation divergence guides patch optimization using either relative RMS or cosine distance. Experimental results demonstrate strong attack transferability across task suites and policies, together with the ability to selectively disrupt manipulation of an attacker-chosen task object through patch placement.",
+      "authors": [
+        "Yiqian Liu",
+        "Yuqi Lin",
+        "Hui Lu",
+        "Jiaming He",
+        "Qi Zhu",
+        "Deyi Ji",
+        "Bing Li",
+        "Kaizheng Wang",
+        "Zhiyuan Zha",
+        "Yi Yu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-11-25T13:28:04Z",
+      "updated": "2026-11-25T13:28:04Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "wam",
+      "priority": "P1",
+      "relevance_score": 7,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "daily arXiv source"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "WAM"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34675",
+      "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+      "abstract": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents can discover solutions using broad prior knowledge and robot-control APIs, but repeated deliberation and repair are costly. Inspired by human learning through reasoning and practice, we propose RoboEvo$^2$, a framework for recursive harness-policy co-evolution. In Policy-to-Harness (P2H) evolution, policy failures guide a coding agent to search complementary Code, Code+ICL, and Code+Policy routes, consolidating verified solutions into reusable skills, routing strategies, and experience memory. In Harness-to-Policy (H2P) evolution, verified trajectories provide supervised training, while Counterfactual Preference Distillation (CPD) teaches the policy to favor successful corrections over failures from the same starting state. The improved policy provides stronger motor skills for subsequent search, while its remaining failures redirect harness evolution, closing the reciprocal loop. Through recursive co-evolution without additional human demonstrations, RoboEvo$^2$ improves standalone success from 11.0% to 84.1% and hybrid success from 30.4% to 90.5% on LIBERO-PRO, with similar gains and reduced agentic costs on RoboTwin C2R. Further experiments demonstrate autonomous task acquisition, cross-embodiment harness transfer, and 95.0% hybrid success on the Unitree G1-D. Our models and code will be publicly released.",
+      "authors": [
+        "Chenzhi Liu",
+        "Jiehong Lin",
+        "Wei Huang",
+        "Xuzhao Huang",
+        "Haoyuan Li",
+        "Yang Zhang",
+        "Junchao Huang",
+        "Chenyeyang Cai",
+        "Bo Wang",
+        "Kazuhiro Kosuge",
+        "Zhongrui Wang",
+        "Xiaojuan Qi"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "published": "2026-11-25T16:39:10Z",
+      "updated": "2026-11-25T16:39:10Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA"
+      ]
+    },
+    {
+      "arxiv_id": "2610.18790",
+      "title": "EqC: Equilibrium Energy Control for Introspective Lifelong Robot Learning",
+      "abstract": "Long-term robot autonomy depends on more than effective action generation: a policy must recognize when its behavior is no longer sufficiently supported and use assistance to improve. We introduce Equilibrium Energy Control (EqC), a framework for introspective lifelong robot learning built around an explicit conditional energy landscape. EqC casts generative action refinement as equilibrium-seeking optimization, while the geometry of the refinement process reveals whether the generated behavior remains consistent with the learned landscape. This competence signal enables Energy-Gated DAgger, where persistent energy-consistency violations trigger expert takeover and the resulting recovery trajectories are aggregated for subsequent policy updates. EqC integrates naturally into both Diffusion Transformer policies and flow-matching-based vision-language-action (VLA) policies. Across simulation and real-world bimanual manipulation, EqC matches or improves control performance and robustness while enabling timely intervention near the policy's competence boundary. A real-world study further shows how these interventions progressively expand the range of situations handled autonomously, providing a practical path from static generative controllers toward self-improving robot systems.",
+      "authors": [
+        "Haodong Yang",
+        "Runhan Huang",
+        "Bowen Zhang",
+        "Iofai Lei",
+        "Zunzhe Zhang",
+        "Xiangcheng Zhang",
+        "Shaoting Zhu",
+        "Linzhan Mou",
+        "Yicheng Liu",
+        "Hang Zhao"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-10-13T17:39:36Z",
+      "updated": "2026-11-25T16:09:24Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2605.10925",
+      "title": "PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models",
+      "abstract": "Large-scale pretraining has made Vision-Language-Action (VLA) models promising foundations for generalist robot manipulation, yet adapting them to downstream tasks remains necessary. However, the common practice of full fine-tuning treats pretraining as initialization and can shift broad priors toward narrow training-distribution patterns. We propose PriorVLA, a novel framework that preserves pretrained priors and learns to leverage them for effective adaptation. PriorVLA keeps a frozen Prior Expert as a read-only prior source and trains an Adaptation Expert for downstream specialization. Expert Queries capture scene priors from the pretrained VLM and motor priors from the Prior Expert, integrating both into the Adaptation Expert to guide adaptation. Together, PriorVLA updates only 25% of the parameters updated by full fine-tuning. Across RoboTwin 2.0, LIBERO, and real-world tasks, PriorVLA achieves stronger overall performance than full fine-tuning and state-of-the-art VLA baselines, with the largest gains under out-of-distribution (OOD) and few-shot settings. PriorVLA improves over pi0.5 by 11 points on RoboTwin 2.0-Hard and achieves 99.1% average success on LIBERO. Across eight real-world tasks and two embodiments, PriorVLA reaches 81% in-distribution (ID) and 57% OOD success with standard data. With only 10 demonstrations per task, PriorVLA reaches 48% ID and 32% OOD success, surpassing pi0.5 by 24 and 22 points, respectively.",
+      "authors": [
+        "Xinyu Guo",
+        "Bin Xie",
+        "Wei Chai",
+        "Xianchi Deng",
+        "Tiancai Wang",
+        "Zhengxing Wu",
+        "Xingyu Chen"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-05-11T17:56:02Z",
+      "updated": "2026-11-25T15:10:25Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34287",
+      "title": "DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training",
+      "abstract": "We present a dataset of 340 fully synthetic manipulation demonstrations generated from real seed data for Vision-Language-Action (VLA) training. The corpus contains 32,340 frames with synchronized RGB and actions across eight object categories, represented as LeRobot v2.1 episodes with H.264 video, per-frame robot states and pose-valued action labels, language task annotations, summary statistics and quality decisions. Each synthetic demonstration is produced without additional teleoperation: a LoRA-fine-tuned Cosmos-3 model generates a manipulation video, and RoboHaMeR recovers the corresponding robot trajectory from RGB. Quality screening accepted 300 of 340 episodes for policy fine-tuning. As preliminary evidence of feasibility, a pretrained GR00T N1.6 policy fine-tuned exclusively on the 300 accepted episodes reaches 16/20 (80%) real-world pick-and-place success on the Oreo-package task. A policy fine-tuned on 105 real teleoperated episodes achieved 18/20 (90%) under the same protocol. These results are based on one object and 20 trials per policy and are therefore reported as preliminary evidence rather than a general performance claim.",
+      "authors": [
+        "Sergei Kurchev",
+        "Iaroslav Kolomiets",
+        "Filipp Maksimov",
+        "Elizaveta Semenyakina",
+        "Miguel Altamirano Cabrera",
+        "Artem Lykov",
+        "Dzmitry Tsetserukou"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-11-25T12:41:23Z",
+      "updated": "2026-11-25T12:41:23Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2611.34257",
+      "title": "CamAct: Learning Robotic Manipulation from In-the-Wild Videos via Camera Motion",
+      "abstract": "Vision-Language-Action (VLA) models benefit from large, diverse datasets for robotic manipulation, yet collecting robot demonstrations remains costly. Recent work has explored egocentric videos as a source of supervision, primarily drawing on demonstrations of human-object interaction. We show that in-the-wild videos can improve robotic manipulation even when they contain no demonstrations of object manipulation. Specifically, camera motion recovered from these videos provides an additional source of motion supervision that complements robot demonstrations. Building on this finding, we introduce CamAct, which incorporates this camera-motion supervision into VLA policies alongside robot demonstrations, extending the use of human videos for manipulation learning beyond object interactions. Experiments show that incorporating this video supervision during fine-tuning improves success rates from 96.40% to 98.10% on LIBERO and from 22.96% to 29.32% on RoboCasa 365. The resulting policy also demonstrates strong results in out-of-distribution generalization on LIBERO-Plus and real-world manipulation tasks.",
+      "authors": [
+        "Haoming Gu",
+        "Yunpeng Qing",
+        "Zhi Hou",
+        "Weinan Zhang"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-11-25T12:19:59Z",
+      "updated": "2026-11-25T12:19:59Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "HUMAN-TO-ROBOT",
+        "REAL ROBOT"
+      ]
+    },
+    {
+      "arxiv_id": "2611.33880",
+      "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data",
+      "abstract": "Forklifts play a critical role in warehousing and distribution, but existing automation systems remain limited in handling complex tasks that require sequential decision-making. Recently, vision--language--action (VLA) models have emerged as a promising approach for multi-step decision-making by directly generating control actions from visual observations and language prompts. Although VLA-based control has been extensively researched for manipulators, to the best of our knowledge, its application to forklifts remains unexplored. Therefore, this study demonstrates the integration of VLA control for an autonomous forklift unloading task with limited real-world data. Moreover, training VLA models typically requires large-scale datasets. As there is currently no public dataset for forklift operations, we use a VLA model pretrained primarily on robotic manipulator data and construct a training dataset via simulation, which can be scaled up at low cost. We then adapt the pretrained VLA model to forklift control using 9.38 h of simulation data and 0.8 h of real-world demonstrations, with the latter accounting for approximately 8% of the collected forklift data by duration. The integrated system was validated through 72 real-world trials across four model variants. The results show that the proposed system can accomplish an unloading task even with limited real-world data.",
+      "authors": [
+        "Koshi Oishi",
+        "Seigo Ito"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "published": "2026-11-25T06:58:46Z",
+      "updated": "2026-11-25T06:58:46Z",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "source_sections": [
+        "Vision Language Action"
+      ],
+      "track": "vla",
+      "priority": "P0",
+      "relevance_score": 10,
+      "score_reasons": [
+        "strong embodied-action phrase",
+        "robot and action context",
+        "cs.RO category",
+        "daily arXiv source",
+        "real-robot evidence in abstract"
+      ],
+      "summary_zh": "",
+      "signals": [
+        "VLA",
+        "REAL ROBOT"
+      ]
+    }
+  ],
+  "rejected": {
+    "1011.0686": "outside lookback window",
+    "1605.06450": "outside lookback window",
+    "1805.07914": "outside lookback window",
+    "1806.09655": "outside lookback window",
+    "2104.00053": "outside lookback window",
+    "2109.08273": "outside lookback window",
+    "2209.05451": "outside lookback window",
+    "2212.06817": "outside lookback window",
+    "2303.04137": "outside lookback window",
+    "2304.13705": "outside lookback window",
+    "2306.10007": "outside lookback window",
+    "2310.08576": "outside lookback window",
+    "2312.10812": "outside lookback window",
+    "2402.15391": "outside lookback window",
+    "2403.03954": "outside lookback window",
+    "2403.08321": "outside lookback window",
+    "2405.12213": "outside lookback window",
+    "2407.05996": "outside lookback window",
+    "2409.20537": "outside lookback window",
+    "2410.07864": "outside lookback window",
+    "2410.11758": "outside lookback window",
+    "2410.18647": "outside lookback window",
+    "2412.04445": "outside lookback window",
+    "2502.00379": "outside lookback window",
+    "2503.02881": "outside lookback window",
+    "2503.14734": "outside lookback window",
+    "2503.18938": "outside lookback window",
+    "2505.17006": "outside lookback window",
+    "2506.23944": "outside lookback window",
+    "2507.05331": "outside lookback window",
+    "2507.12440": "outside lookback window",
+    "2507.13340": "outside lookback window",
+    "2509.18644": "outside lookback window",
+    "2510.02268": "outside lookback window",
+    "2510.26433": "outside lookback window",
+    "2512.13030": "outside lookback window",
+    "2512.22414": "outside lookback window",
+    "2601.05230": "outside lookback window",
+    "2601.18692": "outside lookback window",
+    "2601.22153": "outside lookback window",
+    "2602.06949": "outside lookback window",
+    "2602.10556": "outside lookback window",
+    "2602.11236": "outside lookback window",
+    "2602.12062": "outside lookback window",
+    "2602.12063": "outside lookback window",
+    "2602.12281": "outside lookback window",
+    "2602.13710": "outside lookback window",
+    "2602.16710": "outside lookback window",
+    "2602.18224": "outside lookback window",
+    "2602.23408": "outside lookback window",
+    "2603.01549": "outside lookback window",
+    "2603.05815": "outside lookback window",
+    "2603.16666": "outside lookback window",
+    "2603.17240": "outside lookback window",
+    "2603.19312": "outside lookback window",
+    "2603.22078": "outside lookback window",
+    "2603.22760": "outside lookback window",
+    "2603.25903": "outside lookback window",
+    "2603.29844": "outside lookback window",
+    "2604.01985": "outside lookback window",
+    "2604.05014": "outside lookback window",
+    "2604.06168": "outside lookback window",
+    "2604.11757": "outside lookback window",
+    "2604.15483": "outside lookback window",
+    "2604.16391": "outside lookback window",
+    "2604.20834": "outside lookback window",
+    "2604.28192": "outside lookback window",
+    "2605.00078": "outside lookback window",
+    "2605.02881": "outside lookback window",
+    "2605.03269": "outside lookback window",
+    "2605.04678": "outside lookback window",
+    "2605.11817": "outside lookback window",
+    "2605.15725": "outside lookback window",
+    "2605.19282": "outside lookback window",
+    "2605.20752": "outside lookback window",
+    "2605.24934": "outside lookback window",
+    "2605.30280": "outside lookback window",
+    "2606.01027": "outside lookback window",
+    "2606.02800": "outside lookback window",
+    "2606.05254": "outside lookback window",
+    "2606.06904": "outside lookback window",
+    "2606.07100": "outside lookback window",
+    "2606.11187": "outside lookback window",
+    "2606.15768": "outside lookback window",
+    "2606.16533": "outside lookback window",
+    "2606.17046": "outside lookback window",
+    "2606.17846": "outside lookback window",
+    "2606.17906": "outside lookback window",
+    "2606.19531": "outside lookback window",
+    "2606.20521": "outside lookback window",
+    "2606.20562": "outside lookback window",
+    "2606.20867": "outside lookback window",
+    "2606.32026": "outside lookback window",
+    "2607.08127": "outside lookback window",
+    "2608.04404": "outside lookback window",
+    "2608.05706": "outside lookback window",
+    "2609.03715": "outside lookback window",
+    "2609.27455": "outside lookback window",
+    "2611.33934": "relevance score 3 below threshold"
+  }
+}
