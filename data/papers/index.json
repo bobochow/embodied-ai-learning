@@ -3083,7 +3083,112 @@
         "daily_arxiv"
       ],
       "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space"
+    },
+    "2611.34560": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation"
+    },
+    "2611.34914": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs"
+    },
+    "2610.29560": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation"
+    },
+    "2611.34538": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Dynamic Task Update Benchmark (DTU-Bench): Evaluating Runtime Task Adaptation in Robotic Manipulation"
+    },
+    "2611.34449": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "HoloBrain-0.5 Technical Report"
+    },
+    "2611.26405": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action"
+    },
+    "2611.32665": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "DiffGR00T: Execution-Aware Differentiable Training for Humanoid Whole-Body Vision-Language-Action Models"
+    },
+    "2602.23648": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "FAVLA: A Force-Adaptive Multi-Rate VLA Model for Contact-Rich Robotic Manipulation"
+    },
+    "2611.34360": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "One Patch, Many Policies: Object-Associated Physical Patch Attacks on Robotic Manipulation"
+    },
+    "2611.34675": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution"
+    },
+    "2610.18790": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "EqC: Equilibrium Energy Control for Introspective Lifelong Robot Learning"
+    },
+    "2605.10925": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models"
+    },
+    "2611.34287": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "DataForgeVLA: Fully Synthetic Manipulation Demonstrations for Vision-Language-Action Training"
+    },
+    "2611.34257": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "CamAct: Learning Robotic Manipulation from In-the-Wild Videos via Camera Motion"
+    },
+    "2611.33880": {
+      "first_seen": "2026-11-27",
+      "sources": [
+        "daily_arxiv"
+      ],
+      "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data"
     }
   },
-  "updated_at": "2026-09-10T15:55:41.420205+00:00"
+  "updated_at": "2026-11-27T00:43:29.569825+00:00"
 }
